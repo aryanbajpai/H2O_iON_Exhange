@@ -57,7 +57,7 @@ const Footer = () => {
             placeholder="Enter your email address"
             style={"bg-[#091e2b] px-3 py-2 border border-gray-500 text-gray-400"}
           />
-          <Button type="danger" btnText="SUBSCRIBE" />
+          <Button type="danger" btnText="SUBSCRIBE" addClass={"text-[17px]"} />
         </div>
 
         {/* Copyright */}

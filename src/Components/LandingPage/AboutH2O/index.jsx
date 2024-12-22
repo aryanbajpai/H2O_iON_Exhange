@@ -2,10 +2,12 @@ import React from 'react'
 import Heading from '../../../ReusableComponents/Heading';
 import ItalicSubHead from '../../../ReusableComponents/ItalicSubHead';
 import { aboutH2O } from '../../../db/dummyData';
+import { Container } from '../../../Basics';
 
 const AboutH2O = () => {
   return (
-      <section className='w-full grid grid-cols-2 gap-5 py-20'>
+    <Container>
+      <section className={'w-full grid grid-cols-2 gap-5 py-24'}>
         <div className='pr-10'>
           <Heading text='About' span='H2O Exchange' />
           <ItalicSubHead subHead='The water treatment company' />
@@ -13,7 +15,7 @@ const AboutH2O = () => {
           <p className='text-gray-400 my-3'>H2O Exchange is a technology driven Engineering, assembling Commissioning company presenting a single source for advanced water treatment technologies used internationally.</p>
         </div>
         <div className='grid grid-cols-2 gap-4'>
-          {aboutH2O ?.map((aboutH2O, index) => (
+          {aboutH2O?.map((aboutH2O, index) => (
             <div key={index}>
               <figure className='w-full h-[150px]'>
                 <img src='' className='w-full h-full object-contain' />
@@ -25,6 +27,7 @@ const AboutH2O = () => {
           ))}
         </div>
       </section>
+    </Container>
   )
 }
 

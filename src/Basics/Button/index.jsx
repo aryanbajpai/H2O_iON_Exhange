@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Button = ({ btnText, type }) => {
+const Button = ({ btnText, type, addClass }) => {
   const getButtonClass = () => {
     switch (type) {
       case 'danger':
-        return 'bg-red-600 rounded hover:bg-[#0088b0] text-[17px]';
+        return 'bg-red-600 rounded hover:bg-[#0088b0]';
       case 'success':
         return 'bg-green-500 hover:bg-green-600';
       case 'primary':
@@ -15,7 +15,7 @@ const Button = ({ btnText, type }) => {
   };
 
   return (
-    <button className={`text-white px-6 py-2 font-bold ${getButtonClass()}`}>
+    <button className={`text-white px-6 py-2 font-bold ${addClass} ${getButtonClass()} transition-all duration-500`}>
       {btnText}
     </button>
   );

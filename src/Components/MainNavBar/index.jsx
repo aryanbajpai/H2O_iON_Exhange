@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Header } from "../../Basics";
 
-const MainNavBar = ({backGround}) => {
-  const menuItems = ["HOME", "ABOUT US", "PRODUCTS", "SERVICES", "CONTACT US"];
+const MainNavBar = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {

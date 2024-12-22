@@ -2,6 +2,12 @@ import React from 'react'
 import { Container, Header } from '../../Basics';
 import AboutH2O from './AboutH2O';
 import Head from './Head';
+import Banner from './Banner';
+import ServiceWeOffer from './ServiceWeOffer';
+import ModernTech from './ModernTech';
+import OurProducts from './OurProducts';
+import EmergencyRepair from './EmergencyRepair';
+import RequestService from './RequestService';
 
 const LandingPage = () => {
   return (
@@ -12,9 +18,13 @@ const LandingPage = () => {
           <Header />
         </div>
       </div>
-      <Container classname1={"h-screen"}>
-        <AboutH2O />
-      </Container>
+      <Banner />
+      <AboutH2O />  
+      <ServiceWeOffer />
+      <ModernTech />
+      <OurProducts />
+      <EmergencyRepair/>
+      <RequestService/>
     </main>
   )
 }

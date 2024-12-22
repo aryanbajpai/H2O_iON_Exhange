@@ -26,7 +26,7 @@ const Head = () => {
                     <p>in</p>
                 </div>
             </Container>
-            <Container classname1={"bg-gradient-to-b from-[#fff] to-gray-300 border-t border-dashed border-[#383838] my-1"}>
+            <Container classname1={"bg-gradient-to-b from-[#fff] to-gray-100 border-t border-dashed border-[#383838] my-1"}>
                 <div className='grid grid-cols-2 items-start py-4'>
                     <figure>
                         <img src={logo} alt='Logo' className='h-[90px]' />
