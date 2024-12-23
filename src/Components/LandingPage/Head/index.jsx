@@ -27,14 +27,14 @@ const Head = () => {
                     <p>in</p>
                 </div>
             </Container>
-            <Container classname1={"bg-gradient-to-b from-[#fff] to-gray-100 border-t border-dashed border-[#383838] mt-1"}>
-                <div className='grid grid-cols-2 items-start pb-6 pt-4'>
-                    <figure>
+            <Container classname1={"bg-gradient-to-b from-[#fff] to-gray-200 border-t border-dashed border-[#383838] mt-1"}>
+                <div className='flex justify-between items-start pb-6 pt-4'>
+                    <figure className='w-full'>
                         <img src={logo} alt='Logo' className='h-[90px]' />
                     </figure>
-                    <div className='w-full grid grid-cols-2'>
+                    <div className='w-full flex justify-end'>
                         {contact?.map((c, i) => (
-                            <div key={i} className={`flex px-7 items-center gap-5 ${i === 1 ? "border-l border-gray-400" : "border-0"}`}>
+                            <div key={i} className={`flex w-full px-7 items-center gap-5 ${i === 1 ? "border-l border-gray-400" : "border-0"}`}>
                                 <figure>
                                     <img src={c?.img} alt='image' />
                                 </figure>

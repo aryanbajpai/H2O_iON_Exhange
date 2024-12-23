@@ -22,8 +22,9 @@ const Banner = () => {
   return (
     <>
       <figure className='w-full h-[650px]'>
-      <img src={seaWaterPlant} alt='Banner' className='w-full h-full object-cover' />
+        <img src={seaWaterPlant} alt='Banner' className='w-full h-full object-cover' />
       </figure>
+      
       <Container classname1={"bg-gradient-to-b from-gray-50 to-gray-200"} classname2={"grid grid-cols-2 gap-14 py-10"}>
         {needHelp?.map((h, i) => (
           <div className='w-full flex gap-5 items-center' key={i}>

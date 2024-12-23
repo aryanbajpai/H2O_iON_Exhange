@@ -5,22 +5,23 @@ import { videoShort, waterBg } from "../../../assets";
 
 const ModernTech = () => {
   return (
-    <main
+    <main className="border-3 border-red-400"
       style={{
         backgroundImage: `url(${waterBg})`,
-        backgroundSize: "cover",  // Ensure the image covers the entire background
-        backgroundPosition: "center", // Center the background image
-        backgroundRepeat: "no-repeat", // Prevent repeating the image
+        backgroundSize: "cover",
+        backgroundPosition: "center", 
+        backgroundRepeat: "no-repeat",
       }}
     >
       <Container
         classname1="py-24 bg-gray-800"
-        classname2="grid grid-cols-2 gap-16"
+        classname2="grid grid-cols-[53%_42%] gap-16"
       >
-        <figure className="cursor-pointer">
-          <img src={videoShort} alt="Video" className="" />
+        <figure className="cursor-pointer relative">
+          <img src={videoShort} alt="Video" className="w-full" />
+          <div className="w-full h-full absolute top-0 bg-black opacity-[45%] hover:opacity-[30%] transition-all duration-500"></div>
         </figure>
-        <div>
+        <div className="w-full">
           <Heading text="Modern Technology __" dark={true} />
           <ItalicSubHead
             dark={true}

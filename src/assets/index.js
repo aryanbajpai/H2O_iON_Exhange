@@ -26,5 +26,5 @@ import latestPrjct2 from './images/latestPrjct2.jpg';
 
 export { 
     goGreen, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, drinkingWater,
-    industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct2, latestPrjct2,
+    industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, latestPrjct2,
 };

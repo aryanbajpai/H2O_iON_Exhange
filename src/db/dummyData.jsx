@@ -1,4 +1,4 @@
-import { clientRel, drinkingWater, industrialPumps, mission, strength, turnkey } from "../assets";
+import { clientRel, drinkingWater, hpp, industrialPumps, mission, pbs, sds, spfs, strength, turnkey, wtc, wtp } from "../assets";
 
 export const quickLinks = [
   {
@@ -61,4 +61,13 @@ export const services = [
       title: "DRINKING WATER FILTERATION",
       para: "Drinking water filteration system with & without UV for homes, school, colleges, ..",
   },
+];
+
+export const ourPrdt = [
+  { id: 1, text: 'WATER TREATMENT PLANTS', img: wtp },
+  { id: 2, text: 'WATER TREATMENT COMPONENTS', img: wtc },
+  { id: 3, text: 'SWIMMING POOL FILTRATION SYSTEM', img: spfs },
+  { id: 4, text: 'HYDRO PNEAMATIC PRESSURE', img: hpp },
+  { id: 5, text: 'PRESSURE BOOSTER SYSTEM', img: pbs },
+  { id: 6, text: 'SEA WATER DESALINATION SYSTEM', img: sds },
 ];
