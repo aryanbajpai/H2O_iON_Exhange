@@ -3,8 +3,7 @@ import Container from "../Container";
 import InputFields from "../InputFields";
 import Button from "../Button";
 import { quickLinks } from "../../db/dummyData";
-import goGreen from '../../assets'
-import earth from '../../assets'
+import {goGreen, earth} from '../../assets';
 
 const Footer = () => {
   return (

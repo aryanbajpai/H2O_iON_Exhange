@@ -24,7 +24,7 @@ const MainNavBar = () => {
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <Header backGround={'bg-[#006994]'} />
+      <Header backGround={'bg-[#227cb8]'} />
     </header>
   );
 };

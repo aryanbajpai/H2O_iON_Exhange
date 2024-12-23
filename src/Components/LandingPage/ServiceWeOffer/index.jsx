@@ -1,51 +1,35 @@
-import React from 'react'
-import { Container } from '../../../Basics'
-import Heading from '../../../ReusableComponents/Heading'
+import React from "react";
+import { Container } from "../../../Basics";
+import { Heading } from "../../../ReusableComponents";
+import { services } from "../../../db/dummyData";
 
 const ServiceWeOffer = () => {
-    const services = [
-        {
-            id: 1,
-            img: '',
-            title: "CLIENTS RELATIONSHIP",
-            para: "Annual maintenance contract for systems supplied by us..",
-        },
-        {
-            id: 2,
-            img: '',
-            title: "TRUNKEY PROJECT",
-            para: "Water softing plant for hardwater for applications like industry,.. ",
-        },
-        {
-            id: 3,
-            img: '',
-            title: "INDUSTRIAL PUMPS",
-            para: "Waterboy stainless steel industrial pumps used in Dairy Processing,..",
-        },
-        {
-            id: 4,
-            img: '',
-            title: "DRINKING WATER FILTERATION",
-            para: "Drinking water filteration system with & without UV for homes, school, colleges, ..",
-        },
-    ];
   return (
     <Container classname1={"bg-gray-200 py-20"}>
-        <Heading text='Services that we offers' span="__" />
-        <p className='text-gray-500 my-3'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium</p>
-        <div className='grid grid-cols-4 gap-6 my-7'>
-            {services?.map((s, i) => ( 
-                <div key={i} className='flex flex-col items-center border border-black'>
-                    <figure className='rounded-full'>
-                        <img src='' alt='services' className='w-full h-full rounded-full' />
-                    </figure>
-                    <div className='font-bold text-[#252525] text-center my-3'>{s?.title}</div>
-                    <p className='text-gray-500 text-center'>{s?.para}</p>
-                </div>
-            ))}
-        </div>
+      <Heading text="Services that we offers" span="__" />
+      <p className="text-[#949494] my-3">
+        Providing reliable water treatment solutions to ensure clean, safe, and
+        sustainable water for your H2O plant operations.
+      </p>
+      <div className="grid grid-cols-4 gap-6 my-7">
+        {services?.map((s, i) => (
+          <div key={i} className="flex flex-col items-center">
+            <figure className="rounded-full w-[200px] h-[200px] bg-white my-5">
+              <img
+                src={s?.img}
+                alt="services"
+                className="w-full h-full rounded-full object-contain"
+              />
+            </figure>
+            <div className="font-bold text-[#252525] text-center my-3">
+              {s?.title}
+            </div>
+            <p className="text-[#949494] text-[16px] text-center">{s?.para}</p>
+          </div>
+        ))}
+      </div>
     </Container>
-  )
-}
+  );
+};
 
-export default ServiceWeOffer
+export default ServiceWeOffer;

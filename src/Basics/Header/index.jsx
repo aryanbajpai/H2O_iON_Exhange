@@ -1,13 +1,12 @@
 import React from "react";
-import Container from "../Container";
-import Button from "../Button";
+import {Container, Button} from "../../Basics";
 
 const Header = ({ backGround }) => {
   const menuItems = ["HOME", "ABOUT US", "PRODUCTS", "SERVICES", "CONTACT US"];
 
   return (
     <Container classname1={`${backGround} h-auto py-1`}>
-      <div className="bg-[#006994] p-1">
+      <div className="bg-[#227cb8] p-1">
         <nav className="border border-dashed border-[#afafaf]">
           <div className="text-white text-[16px] font-bold flex justify-between">
             <ul className="flex py-2">

@@ -1,6 +1,5 @@
 import React from 'react'
-import Heading from '../../../ReusableComponents/Heading';
-import ItalicSubHead from '../../../ReusableComponents/ItalicSubHead';
+import {ItalicSubHead, Heading} from '../../../ReusableComponents';
 import { aboutH2O } from '../../../db/dummyData';
 import { Container } from '../../../Basics';
 
@@ -17,12 +16,12 @@ const AboutH2O = () => {
         <div className='grid grid-cols-2 gap-4'>
           {aboutH2O?.map((aboutH2O, index) => (
             <div key={index}>
-              <figure className='w-full h-[150px]'>
-                <img src='' className='w-full h-full object-contain' />
+              <figure className='w-full h-[150px] mb-5'>
+                <img src={aboutH2O?.img} className='w-full h-full object-contain' />
               </figure>
               <p className='text-[#383838] text-xl font-bold py-2'>{aboutH2O?.title}</p>
               <p className='text-gray-400 pb-2'>{aboutH2O?.para}</p>
-              <p className='text-red-500 font-semibold'>Reamore..{" >>"}</p>
+              <p className='text-red-500 font-semibold cursor-pointer'>Read more..{" >>"}</p>
             </div>
           ))}
         </div>

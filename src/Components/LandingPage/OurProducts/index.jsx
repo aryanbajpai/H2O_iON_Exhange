@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Container } from '../../../Basics';
-import Heading from '../../../ReusableComponents/Heading';
-import Button from '../../../Basics/Button';
+import { Container, Button } from '../../../Basics';
+import {Heading} from '../../../ReusableComponents';
 
 const OurProducts = () => {
   const [state, setState] = useState({
@@ -34,6 +33,7 @@ const OurProducts = () => {
               hoverIndex: null,
             }))}
           >
+            
             <p
               className={`text-white text-center font-bold text-lg transition-transform duration-700 ${
                 state?.hoverIndex === index ? 'translate-x-0' : 'translate-x-[200%]'
