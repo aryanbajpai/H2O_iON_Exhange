@@ -1,4 +1,4 @@
-import { clientRel, drinkingWater, hpp, industrialPumps, mission, pbs, sds, spfs, strength, turnkey, wtc, wtp } from "../assets";
+import { clientRel, drinkingWater, hpp, industrialPumps, latestPrjct1, latestPrjct2, mission, pbs, sds, spfs, strength, turnkey, wtc, wtp } from "../assets";
 
 export const quickLinks = [
   {
@@ -70,4 +70,17 @@ export const ourPrdt = [
   { id: 4, text: 'HYDRO PNEAMATIC PRESSURE', img: hpp },
   { id: 5, text: 'PRESSURE BOOSTER SYSTEM', img: pbs },
   { id: 6, text: 'SEA WATER DESALINATION SYSTEM', img: sds },
+];
+
+export const ourLatest = [
+  { 
+      img: latestPrjct1,
+      text: 'Where does it come from?: Asking the Right Questions',
+      para: 'H2O Plant provides innovative water solutions, ensuring sustainability and efficiency for industries, homes, and agriculture through advanced purification technology'
+  },
+  { 
+      img: latestPrjct2,
+      text: 'Where does it come from?: Asking the Right Questions',
+      para: 'H2O Plant provides innovative water solutions, ensuring sustainability and efficiency for industries, homes, and agriculture through advanced purification technology'
+  },
 ];

@@ -8,6 +8,7 @@ import ModernTech from './ModernTech';
 import OurProducts from './OurProducts';
 import EmergencyRepair from './EmergencyRepair';
 import RequestService from './RequestService';
+import OurLatestProject from './OurLatestProject';
 
 const LandingPage = () => {
   return (
@@ -25,6 +26,7 @@ const LandingPage = () => {
       <OurProducts />
       <EmergencyRepair/>
       <RequestService/>
+      <OurLatestProject />
     </main>
   )
 }

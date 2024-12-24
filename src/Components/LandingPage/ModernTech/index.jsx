@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "../../../Basics";
 import { Heading, ItalicSubHead } from "../../../ReusableComponents";
-import { videoShort, waterBg } from "../../../assets";
+import { playBtn, videoShort, waterBg } from "../../../assets";
 
 const ModernTech = () => {
   return (
@@ -19,6 +19,7 @@ const ModernTech = () => {
       >
         <figure className="cursor-pointer relative">
           <img src={videoShort} alt="Video" className="w-full" />
+          <img src={playBtn} className="absolute top-[40%] left-[44%] w-20 h-20" />
           <div className="w-full h-full absolute top-0 bg-black opacity-[45%] hover:opacity-[30%] transition-all duration-500"></div>
         </figure>
         <div className="w-full">

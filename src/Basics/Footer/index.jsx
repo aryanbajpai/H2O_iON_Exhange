@@ -40,8 +40,8 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-            <figure>
-              <img src={goGreen} alt="Go Green Logo" />
+            <figure className="boder border-white w-[250px] h-[250px]">
+              <img src={goGreen} alt="Go Green Logo" className="w-full h-full" />
             </figure>
           </section>
         </section>

@@ -23,8 +23,9 @@ import sds from './images/sds.jpg';
 import award from './images/superServiceAward.png';
 import latestPrjct1 from './images/latestPrjct1.jpg';
 import latestPrjct2 from './images/latestPrjct2.jpg';
+import playBtn from './images/play-button.svg';
 
 export { 
     goGreen, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, drinkingWater,
-    industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, latestPrjct2,
+    industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, latestPrjct2, playBtn,
 };
