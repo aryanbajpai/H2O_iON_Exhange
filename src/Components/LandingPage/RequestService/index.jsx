@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, InputFields, TextAreaField, Button } from "../../../Basics";
 import { Heading, ItalicSubHead } from "../../../ReusableComponents";
+import { award } from "../../../assets";
 
 const RequestService = () => {
   const waterManagementCompany = [
@@ -70,12 +71,15 @@ const RequestService = () => {
             Providing reliable water treatment solutions to ensure clean, safe,
             and sustainable water for your H2O plant operations.
           </p>
-          <div className="text-[#383838] py-8 ">
+          <div className="flex justify-between items-center pr-7">
+          <div className="text-[#383838] py-8">
             {companyInWesternIndia?.map((c) => (
               <div key={c?.id} className="mb-2">
                 <p>{c?.name}</p>
               </div>
             ))}
+          </div>
+            <img src={award} className="w-[140px] h-[150px]"  />
           </div>
         </div>
       </section>

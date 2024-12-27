@@ -9,6 +9,8 @@ import OurProducts from './OurProducts';
 import EmergencyRepair from './EmergencyRepair';
 import RequestService from './RequestService';
 import OurLatestProject from './OurLatestProject';
+import BrandsWeDealIn from './BrandsWeDealIn';
+import Address from './Address';
 
 const LandingPage = () => {
   return (
@@ -26,7 +28,9 @@ const LandingPage = () => {
       <OurProducts />
       <EmergencyRepair/>
       <RequestService/>
+      <BrandsWeDealIn />
       <OurLatestProject />
+      <Address/>
     </main>
   )
 }

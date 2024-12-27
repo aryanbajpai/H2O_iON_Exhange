@@ -1,4 +1,4 @@
-import { clientRel, drinkingWater, hpp, industrialPumps, latestPrjct1, latestPrjct2, mission, pbs, sds, spfs, strength, turnkey, wtc, wtp } from "../assets";
+import { azud, clientRel, cnp, csm, dow, drinkingWater, hpp, hydranautics, industrialPumps, initiative, ionExchange, lanxess, latestPrjct1, latestPrjct2, mission, pbs, sds, spfs, strength, turnkey, wtc, wtp } from "../assets";
 
 export const quickLinks = [
   {
@@ -82,5 +82,40 @@ export const ourLatest = [
       img: latestPrjct2,
       text: 'Where does it come from?: Asking the Right Questions',
       para: 'H2O Plant provides innovative water solutions, ensuring sustainability and efficiency for industries, homes, and agriculture through advanced purification technology'
+  },
+];
+
+export const viewAll = [
+  {id:1, text: 'Where does it come from?: Asking the Right Questions',},
+  {id:2, text: 'Where does it come from?: Asking the Right Questions',},
+  {id:2, text: 'Where does it come from?: Asking the Right Questions',},
+];
+
+export const brands = [
+  {id: 1, img: initiative},
+  {id: 2, img: azud},
+  {id: 3, img: csm},
+  {id: 4, img: cnp},
+  {id: 5, img: lanxess},
+  {id: 6, img: ionExchange},
+  {id: 7, img: dow},
+  {id: 8, img: hydranautics},
+];
+
+export const addresses = [
+  {
+    img: '',
+    type: "FACTORY",
+    value: 'A/16,Shiv Industrial park, Ambica mill compound, Nr. vatva railway station over bridge, Vatva, Ahmedabad-382445',
+  },
+  {
+    img: '',
+    type: 'EMAIL US',
+    value: 'h2oionexchange1@gmail.com',
+  },
+  {
+    img: '',
+    type: '24/7 EMERGENCY CALL',
+    value: '+079 - 29095355',
   },
 ];
