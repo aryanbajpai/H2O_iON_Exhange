@@ -6,7 +6,7 @@ const MainNavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollThreshold = window.innerHeight * 0.17;
+      const scrollThreshold = window.innerHeight * 0.25;
       if (window.scrollY > scrollThreshold) {
         setVisible(true);
       } else {
@@ -20,7 +20,7 @@ const MainNavBar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-500 ${
+      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-700 ease-in ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >

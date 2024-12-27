@@ -1,4 +1,5 @@
 import goGreen from './images/goGreen.png';
+import saveEnvironment from './images/saveEnvironment.png'
 import earth from './images/earth.jpg';
 import logo from './images/logo.png';
 import email from './images/mail.png';
@@ -43,7 +44,7 @@ import turnkeyProject from './images/servicesImages/turnkeyBusiness.jpg';
 import pumpsBusiness from './images/servicesImages/pumpsBusiness.jpg';
 
 export { 
-    goGreen, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
+    goGreen, saveEnvironment, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
     drinkingWater, industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
     latestPrjct2, playBtn,  aboutUsBg, aboutUs, initiative, azud, csm, cnp, lanxess, ionExchange, dow, hydranautics, 
     addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness,

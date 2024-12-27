@@ -30,7 +30,7 @@ const Banner = () => {
           <div className='w-full flex gap-5 items-center' key={i}>
             <img src={h?.img} alt='image' className='' />
             <div className='w-[65%]'>
-              <p className='font-bold text-xl text-gray-700'>{h?.title1} <spa className='text-red-800'>{h?.title2}</spa></p>
+              <p className='font-bold text-xl text-gray-700'>{h?.title1} <span className='text-red-800'>{h?.title2}</span></p>
               <p className='text-[#252525]'>{h?.para} <span className='font-bold underline'>{h?.link}</span></p>
             </div>
           </div>

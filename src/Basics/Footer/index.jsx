@@ -3,7 +3,7 @@ import Container from "../Container";
 import InputFields from "../InputFields";
 import Button from "../Button";
 import { quickLinks } from "../../db/dummyData";
-import {goGreen, earth} from '../../assets';
+import {earth, saveEnvironment} from '../../assets';
 import Address from "../Address";
 
 const Footer = () => {
@@ -42,8 +42,8 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-            <figure className="boder border-white w-[250px] h-[250px]">
-              <img src={goGreen} alt="Go Green Logo" className="w-full h-full" />
+            <figure className="boder border-white">
+              <img src={saveEnvironment} alt="Go Green Logo" className="w-full h-full" />
             </figure>
           </section>
         </section>
