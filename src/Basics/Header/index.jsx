@@ -1,8 +1,10 @@
 import React from "react";
 import {Container, Button} from "../../Basics";
+import { useNavigate } from "react-router-dom";
+import { menuItems } from "../../db/dummyData";
 
 const Header = ({ backGround }) => {
-  const menuItems = ["HOME", "ABOUT US", "PRODUCTS", "SERVICES", "CONTACT US"];
+  const navigate = useNavigate();
 
   return (
     <Container classname1={`${backGround} h-auto py-1`}>
@@ -14,8 +16,9 @@ const Header = ({ backGround }) => {
                 <li
                   key={index}
                   className={`px-7 py-2 cursor-pointer ${index > 0 && "border-l-2 border-[#114c70]"} hover:text-[#5cd0f3] transition-all duration-300`}
+                  onClick={() => navigate(`${item?.link}`)}
                 >
-                  {item}
+                  {item?.item}
                 </li>
               ))}
             </ul>

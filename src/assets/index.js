@@ -25,7 +25,11 @@ import latestPrjct1 from './images/latestPrjct1.jpg';
 import latestPrjct2 from './images/latestPrjct2.jpg';
 import playBtn from './images/play-button.svg';
 
+import aboutUsBg from './images/aboutUsBg.jpg';
+import aboutUs from './images/aboutUs.jpg';
+
 export { 
     goGreen, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, drinkingWater,
-    industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, latestPrjct2, playBtn,
+    industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, latestPrjct2, playBtn, aboutUsBg,
+    aboutUs
 };

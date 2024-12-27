@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container } from '../../../Basics'
-import {call, email, logo} from '../../../assets'
+import { Container } from '../../Basics'
+import {call, email, logo} from '../../assets'
 
 const Head = () => {
     const contact = [

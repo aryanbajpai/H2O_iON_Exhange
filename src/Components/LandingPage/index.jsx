@@ -1,34 +1,32 @@
-import React from 'react'
-import { Header } from '../../Basics';
-import AboutH2O from './AboutH2O';
-import Head from './Head';
-import Banner from './Banner';
-import ServiceWeOffer from './ServiceWeOffer';  
-import ModernTech from './ModernTech';
-import OurProducts from './OurProducts';
-import EmergencyRepair from './EmergencyRepair';
-import RequestService from './RequestService';
-import OurLatestProject from './OurLatestProject';
+import React from "react";
+import AboutH2O from "./AboutH2O";
+import { CommonHeader, ContactBanner } from "../../ReusableComponents";
+import Banner from "./Banner";
+import ServiceWeOffer from "./ServiceWeOffer";
+import ModernTech from "./ModernTech";
+import OurProducts from "./OurProducts";
+import RequestService from "./RequestService";
+import OurLatestProject from "./OurLatestProject";
 
 const LandingPage = () => {
   return (
     <main>
-      <div className='relative w-full'>
-        <Head />
-        <div className='absolute w-full -bottom-[54px]'>
-          <Header />
-        </div>
-      </div>
+      <CommonHeader />
       <Banner />
-      <AboutH2O />  
+      <AboutH2O />
       <ServiceWeOffer />
       <ModernTech />
       <OurProducts />
-      <EmergencyRepair/>
-      <RequestService/>
+      <ContactBanner
+        small="If you have any emergency plumbing need, simply call our 24 hour emergency plumbing"
+        big1="QUICK AND RELIABLE REPAIR OF"
+        big2="EMERGENCY LEAKES & PIPE BURST"
+        contact="+079 - 29095355"
+      />
+      <RequestService />
       <OurLatestProject />
     </main>
-  )
-}
+  );
+};
 
 export default LandingPage;
