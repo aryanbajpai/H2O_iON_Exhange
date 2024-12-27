@@ -1,5 +1,28 @@
 import { azud, clientRel, cnp, csm, dow, drinkingWater, hpp, hydranautics, industrialPumps, initiative, ionExchange, lanxess, latestPrjct1, latestPrjct2, mission, pbs, sds, spfs, strength, turnkey, wtc, wtp } from "../assets";
 
+export const menuItems = [
+  {
+    item: "HOME",
+    link: '/',
+  },
+  {
+    item: "ABOUT US",
+    link: '/about-us',
+  },
+  {
+    item: "PRODUCTS",
+    link: '/',
+  },
+  {
+    item: "SERVICES",
+    link: '/services',
+  },
+  {
+    item: "CONTACT US",
+    link: '/contact-us',
+  },
+];
+
 export const quickLinks = [
   {
     title: 'Quick Links',
@@ -82,6 +105,36 @@ export const ourLatest = [
       img: latestPrjct2,
       text: 'Where does it come from?: Asking the Right Questions',
       para: 'H2O Plant provides innovative water solutions, ensuring sustainability and efficiency for industries, homes, and agriculture through advanced purification technology'
+  },
+];
+
+export const paragraphs = [
+  {
+      id: 1,
+      para: "The following list of products, which we are manufacturing at our Plant. We also offer in the Generation System as per the requirement of the client packaged drinking water treatment systems for ground bore-well river and tape water applications in standard capacities of portable water production from 10 ltrs per hr to 50000 ltrs per hr and above size. Our company also provides water filters with and without U.V attachment, softener & water vending machines in various capacities."
+  },
+  {
+      id: 2,
+      para: "The company can design, manufacture and install customized system to meet our client's requirements. We have already supplied more than 300 industrial and domestic plants for various application like bottled water manufacturers, hospital, villages, schools, colleges, industries, corporate offices, radiators for earth moving equipment etc.",
+  },
+  {
+      id: 3,
+      para: "We maintain state of the art technologies and equipment to assist our engineers in the selection and designing of the most effective water treatment systems for the type of raw water available to each individual client."
+  }
+];
+
+export const clientSpeak = [
+  {
+    id: 1,
+    comment:
+      '"As our organisation had almost 20 industrial RO mineral water plant since more than last 20 years. We were facing maintainance and sustainable output of drinking water from our existing plants since last few years. We are thankful to Top H2O Technologies Pvt. Ltd. for giving us roubst solution on and zero percent break downcall system via remote monitoring system with instant SMS alerts. We are highly satisfied with after sales service and support system of Top H2O Technologies."-',
+    client: "Brahmakumaries, Mt. Abhu",
+  },
+  {
+    id: 2,
+    comment:
+      '"RO purified water have its own limitations like it removes 99.5% total dissolve solids from source water. We were searching for the solution on the biggest problem of RO Purified Water and we found Top H2O Technologies Pvt. Ltd who can provide complete solution for RO Purified water which is generally near to deminralised water by adding unique mineral composition that they have by name of PureMagic Plus."',
+    client: "NTC India",
   },
 ];
 
