@@ -24,8 +24,10 @@ const OurProducts = () => {
             className="relative z-0 group"
             onMouseEnter={() => updateStates("hoverIndex", index)}
             onMouseLeave={() => updateStates("hoverIndex", null)}>
-            <img src={product?.img} alt="Our Products" className="w-auto h-[310px]" />
-            <div className="w-full h-[310px] z-10 absolute top-0 bg-blue-600 opacity-[60%] hidden group-hover:block transition-all duration-500"></div>
+            <figure className='w-auto h-[310px] overflow-hidden'>
+            <img src={product?.img} alt="Our Products" className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110" />
+            </figure>
+            <div className="w-full h-[310px] z-10 absolute top-0 bg-[#14537e] opacity-[80%] invisible group-hover:visible transition-all duration-300"></div>
             <div
               key={product.id}
               className="absolute z-20 inset-0 m-auto w-[50%] h-[310px] flex flex-col justify-center items-center overflow-hidden"

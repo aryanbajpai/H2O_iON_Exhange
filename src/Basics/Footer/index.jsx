@@ -4,6 +4,7 @@ import InputFields from "../InputFields";
 import Button from "../Button";
 import { quickLinks } from "../../db/dummyData";
 import {goGreen, earth} from '../../assets';
+import Address from "../Address";
 
 const Footer = () => {
   return (
@@ -13,6 +14,7 @@ const Footer = () => {
         backgroundImage: `url(${earth})`, 
       }}
     >
+      <Address />
       <Container classname1={"h-auto py-10 bg-[#102f42]/80"}>
         {/* About us and Links */}
         <section className="w-full grid grid-cols-[30%_70%] gap-5">

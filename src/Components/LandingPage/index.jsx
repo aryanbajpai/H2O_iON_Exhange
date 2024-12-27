@@ -8,7 +8,6 @@ import OurProducts from "./OurProducts";
 import RequestService from "./RequestService";
 import OurLatestProject from "./OurLatestProject";
 import BrandsWeDealIn from './BrandsWeDealIn';
-import Address from './Address';
 
 const LandingPage = () => {
   return (
@@ -28,7 +27,6 @@ const LandingPage = () => {
       <RequestService />
       <BrandsWeDealIn />
       <OurLatestProject />
-      <Address/>
     </main>
   );
 };

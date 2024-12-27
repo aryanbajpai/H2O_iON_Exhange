@@ -37,9 +37,14 @@ import dow from './images/dow.jpg';
 import hydranautics from './images/hydranautics.jpg';
 import addressBg from './images/addressBg.jpg';
 
+import filtrationBusiness from './images/servicesImages/filtrationBusiness.jpg';
+import clientsRelation from './images/servicesImages/clientsRelation.jpg';
+import turnkeyProject from './images/servicesImages/turnkeyBusiness.jpg';
+import pumpsBusiness from './images/servicesImages/pumpsBusiness.jpg';
+
 export { 
-    goGreen, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, drinkingWater,
-    industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, latestPrjct2, playBtn,  aboutUsBg,
-    aboutUs
-    initiative, azud, csm, cnp, lanxess, ionExchange, dow, hydranautics, addressBg
-};
+    goGreen, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
+    drinkingWater, industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
+    latestPrjct2, playBtn,  aboutUsBg, aboutUs, initiative, azud, csm, cnp, lanxess, ionExchange, dow, hydranautics, 
+    addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness,
+}; 

@@ -1,7 +1,7 @@
 import React from "react";
-import { addresses } from "../../../db/dummyData";
-import { Container } from "../../../Basics";
-import { addressBg } from "../../../assets";
+import { addresses } from "../../db/dummyData";
+import Container from "../Container";
+import { addressBg } from "../../assets";
 
 const Address = () => {
   return (
@@ -11,7 +11,7 @@ const Address = () => {
         backgroundImage: `url(${addressBg})`,
       }}
     >
-      <Container classname1={"h-auto py-5 bg-[#102f42]/50"}>
+      <Container classname1={"h-auto py-5 bg-[#102f42]/60"}>
         <section className="w-full grid grid-cols-3 gap-7">
           {addresses?.map((a, i) => (
             <div key={i}>

@@ -15,7 +15,7 @@ const Button = ({ btnText, type, addClass }) => {
   };
 
   return (
-    <button className={`text-white px-7 py-2 font-bold ${addClass} ${getButtonClass()} transition-all duration-500`}>
+    <button className={`text-white px-7 py-2 font-bold ${addClass} ${getButtonClass()} transition-all duration-300`}>
       {btnText}
     </button>
   );
