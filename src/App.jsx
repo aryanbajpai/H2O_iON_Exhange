@@ -6,6 +6,8 @@ import AboutUs from './Components/AboutUs';
 import ServicesComponent from './Components/ServicesComponent';
 import Products from './Components/Products';
 import ContactUs from './Components/ContactUs';
+import ROBased from './Components/Products/ROBased';
+import FullyAutomatic from './Components/Products/FullyAutomatic';
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
              <Route path='/services' exact Component={ServicesComponent}/>
              <Route path='/products' exact Component={Products}/>
              <Route path='/contact-us' exact Component={ContactUs}/>
+             <Route path='/ro-based-water-treatment-plant' exact Component={ROBased}/>
+             <Route path='/fully-automatic-water-treatment-plant' exact Component={FullyAutomatic}/>
           </Routes>
           <Footer />        
         </Router>

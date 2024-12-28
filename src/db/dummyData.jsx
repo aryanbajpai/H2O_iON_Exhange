@@ -254,3 +254,61 @@ export const needHelp = [
     link: "",
   },
 ];
+
+export const productsDummy = [
+  {
+    id: 1,
+    name: "RO Based Water Treatment Plant",
+    link: "/",
+  },
+  {
+    id: 2,
+    name: "Fully Automatic Water Treatment Plant",
+    link: "/",
+  },
+  {
+    id: 3,
+    name: "Packaged Drinking Water Turnkey Project",
+    link: "/",
+  },
+  {
+    id: 4,
+    name: "Added Mineral",
+    link: "/",
+  },
+  {
+    id: 5,
+    name: "Ultra Filtration Water Treatment Plant",
+    link: "/",
+  },
+  {
+    id: 6,
+    name: "Ultra Violet Wallet Treatment Plant",
+    link: "/",
+  },
+  {
+    id: 7,
+    name: "Softner Base Water Treatment Plant",
+    link: "/",
+  },
+  {
+    id: 8,
+    name: "DM PLANT & FILTRATION PLANT",
+    link: "/",
+  },
+  {
+    id: 9,
+    name: "Swimming Pool Filtration Plant",
+    link: "/",
+  },
+  {
+    id: 10,
+    name: "Sea Water Plant",
+    link: "/",
+  },
+  {
+    id: 11,
+    name: "More...",
+    link: "/",
+  },
+];
