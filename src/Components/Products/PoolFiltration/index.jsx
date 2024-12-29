@@ -1,12 +1,13 @@
 import React from 'react'
+import { CommonHeader, Navigation } from '../../../ReusableComponents'
 
-const UltraViolet = () => {
+const PoolFiltration = () => {
   return (
     <main>
       <CommonHeader
         head="RO Based Water Treatment Plant"
         tail='"Nothing in the world is more flexible and yielding then water"'
-        bgImg={aboutUsBg}
+        // bgImg={aboutUsBg}
         headBanner={true}
       />
       <Navigation child="RO Based Water Treatment Plant" />
@@ -14,4 +15,4 @@ const UltraViolet = () => {
   )
 }
 
-export default UltraViolet;
+export default PoolFiltration;

@@ -26,7 +26,7 @@ const OurLatestProject = () => {
         ))}
         <div className="flex flex-col">
           {viewAll?.map((v) => (
-            <div className="border h-full font-[500] text-lg p-7">
+            <div key={v?.id} className="border h-full font-[500] text-lg p-7">
               {v?.text}
             </div>
           ))}

@@ -4,10 +4,9 @@ import { Footer } from './Basics';
 import MainNavBar from './Components/MainNavBar';
 import AboutUs from './Components/AboutUs';
 import ServicesComponent from './Components/ServicesComponent';
-import Products from './Components/Products';
+import { AddedMinerals, SoftnerBased, DMPlant, FullyAutomatic, PoolFiltration, SeaWaterPlant, TrunkeyProject, UltraFiltration, UltraViolate } from './Components/Products';
 import ContactUs from './Components/ContactUs';
-import ROBased from './Components/Products/ROBased';
-import FullyAutomatic from './Components/Products/FullyAutomatic';
+import { AllProducts, ROBased } from './Components/Products';
 
 function App() {
 
@@ -17,12 +16,20 @@ function App() {
           <MainNavBar />
           <Routes>
              <Route path='/' exact Component={LandingPage}/>
-             <Route path='/about-us' exact Component={AboutUs}/>
-             <Route path='/services' exact Component={ServicesComponent}/>
-             <Route path='/products' exact Component={Products}/>
-             <Route path='/contact-us' exact Component={ContactUs}/>
-             <Route path='/ro-based-water-treatment-plant' exact Component={ROBased}/>
-             <Route path='/fully-automatic-water-treatment-plant' exact Component={FullyAutomatic}/>
+             <Route path='/about-us' Component={AboutUs}/>
+             <Route path='/services' Component={ServicesComponent}/>
+             <Route path='/contact-us' Component={ContactUs}/>
+             <Route path='/ro-based-water-treatment-plant' element={<ROBased/>}/>
+             <Route path='/fully-automatic-water-treatment-plant' Component={FullyAutomatic}/>
+             <Route path='/packaged-drinking-water-turnkey-project' Component={TrunkeyProject}/>
+             <Route path='/added-minerals' Component={AddedMinerals}/>
+             <Route path='/utra-filteration-water-treatent-plant' Component={UltraFiltration}/>
+             <Route path='/utra-violate-water-treatent-plant' Component={UltraViolate}/>
+             <Route path='softner-base-water-treatment-plant' Component={SoftnerBased}/>
+             <Route path='/dm-plant-filteration-plant' Component={DMPlant}/>
+             <Route path='/swimming-pool-filteration-plant' Component={PoolFiltration}/>
+             <Route path='/sea-water-plant' Component={SeaWaterPlant}/>
+             <Route path='/products' Component={AllProducts}/>
           </Routes>
           <Footer />        
         </Router>

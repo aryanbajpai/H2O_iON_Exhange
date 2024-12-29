@@ -1,4 +1,5 @@
 import React from 'react'
+import { CommonHeader, Navigation } from '../../../ReusableComponents'
 
 const TrunkeyProject = () => {
   return (
@@ -6,7 +7,7 @@ const TrunkeyProject = () => {
       <CommonHeader
         head="RO Based Water Treatment Plant"
         tail='"Nothing in the world is more flexible and yielding then water"'
-        bgImg={aboutUsBg}
+        // bgImg={aboutUsBg}
         headBanner={true}
       />
       <Navigation child="RO Based Water Treatment Plant" />

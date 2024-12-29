@@ -18,6 +18,7 @@ import {
   mission,
   pbs,
   pumpsBusiness,
+  roTreatmentImg,
   sds,
   spfs,
   strength,
@@ -38,7 +39,7 @@ export const menuItems = [
   },
   {
     item: "PRODUCTS",
-    link: "/",
+    link: "",
   },
   {
     item: "SERVICES",
@@ -168,7 +169,7 @@ export const clientSpeak = [
 export const viewAll = [
   { id: 1, text: "Where does it come from?: Asking the Right Questions" },
   { id: 2, text: "Where does it come from?: Asking the Right Questions" },
-  { id: 2, text: "Where does it come from?: Asking the Right Questions" },
+  { id: 3, text: "Where does it come from?: Asking the Right Questions" },
 ];
 
 export const brands = [
@@ -259,56 +260,314 @@ export const productsDummy = [
   {
     id: 1,
     name: "RO Based Water Treatment Plant",
-    link: "/",
+    link: "/ro-based-water-treatment-plant",
   },
   {
     id: 2,
     name: "Fully Automatic Water Treatment Plant",
-    link: "/",
+    link: "/fully-automatic-water-treatment-plant",
   },
   {
     id: 3,
     name: "Packaged Drinking Water Turnkey Project",
-    link: "/",
+    link: "/packaged-drinking-water-turnkey-project",
   },
   {
     id: 4,
     name: "Added Mineral",
-    link: "/",
+    link: "/added-minerals",
   },
   {
     id: 5,
     name: "Ultra Filtration Water Treatment Plant",
-    link: "/",
+    link: "/utra-filteration-water-treatent-plant",
   },
   {
     id: 6,
     name: "Ultra Violet Wallet Treatment Plant",
-    link: "/",
+    link: "/utra-violate-water-treatent-plant",
   },
   {
     id: 7,
     name: "Softner Base Water Treatment Plant",
-    link: "/",
+    link: "/softner-base-water-treatment-plant",
   },
   {
     id: 8,
     name: "DM PLANT & FILTRATION PLANT",
-    link: "/",
+    link: "/dm-plant-filtration-plant",
   },
   {
     id: 9,
     name: "Swimming Pool Filtration Plant",
-    link: "/",
+    link: "/swimming-pool-filtration-plant",
   },
   {
     id: 10,
     name: "Sea Water Plant",
-    link: "/",
+    link: "/sea-water-palnt",
   },
   {
     id: 11,
     name: "More...",
-    link: "/",
+    link: "/products",
+  },
+];
+
+export const RoPlantTreatments = [
+  {
+    id: 1,
+    name: 'All Products',
+    child: [],
+  },
+  {
+    id: 2,
+    name: 'RO Based Water Treatment Plant',
+    child: {
+      img: roTreatmentImg,
+      quality: false,
+      facility: false,
+      model: false,
+    },
+  },
+  {
+    id: 3,
+    name: 'PLANT CAPACITY :- 5000 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 4,
+    name: 'PLANT CAPACITY :- RO 3000 LPH (FULLY AUTO)',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 5,
+    name: 'PLANT CAPACITY :- 2000 LPH (FULLY SS DELUXE)',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 6,
+    name: 'PLANT CAPACITY :- 1000 LPH (FULLY AUTO RO WITH SOFTENER)',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 7,
+    name: 'PLANT CAPACITY :- 1000 LPH (RO SS SEMI AUTO)',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 8,
+    name: 'PLANT CAPACITY :- 2000 LPH (RO SS SEMI AUTO)',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 9,
+    name: 'PLANT CAPACITY :- 500 LPH SEMI SS',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 10,
+    name: 'PLANT CAPACITY :- 250 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 11,
+    name: 'PLANT CAPACITY :- 100 / 150 LPH',
+    child: [
+      {
+        img: '',
+        quality: true,
+        facility: true,
+        model: true,
+      },
+    ],
+  },
+  {
+    id: 12,
+    name: 'PLANT CAPACITY :- 75 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 13,
+    name: 'PLANT CAPACITY :- 50 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 14,
+    name: 'PLANT CAPACITY :- 35 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 15,
+    name: 'PLANT CAPACITY :- 25 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: true,
+    },
+  },
+  {
+    id: 16,
+    name: 'INDUSTRIAL RO :- RO 100 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 17,
+    name: 'INDUSTRIAL RO :- RO 150 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 18,
+    name: 'INDUSTRIAL RO :- RO 250 LPH',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 19,
+    name: 'INDUSTRIAL RO :- RO 750 LPH FULLY SS DELUXE',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 20,
+    name: 'INDUSTRIAL RO :- RO 1000 LPH SEMI AUTO',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 21,
+    name: 'INDUSTRIAL RO :- RO 2000 (FULLY DELUXE RO)',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+  {
+    id: 22,
+    name: 'RO Based Water Treatment Plant',
+    child: {
+      img: '',
+      quality: true,
+      facility: true,
+      model: false,
+    },
+  },
+];
+
+export const AutomaticWaterTreatment = [
+  {
+    id: 1,
+    name: 'All Products',
+    img: ''
+  },
+  {
+    id: 2,
+    name: 'Fully Automatic Water Treatment Plant',
+    img :'',
+  },
+  {
+    id: 3,
+    name: 'MULTI PORT VALVES PLE ROLES',
+    img: '',
+  },
+  {
+    id: 4,
+    name: 'FULLY AUTOMATIC REMOTE MONITOR WTP/STP FROM INITIATIVE',
+    img: '',
+  },
+  {
+    id: 5,
+    name: 'APT AFFORDABLE AUTOMATION',
+    img: '',
+  },
+  {
+    id: 6,
+    name: 'FULLY AUTOMATIC FILTER / SOFTENER / R.O.',
+    img: '',
+  },
+  {
+    id: 7,
+    name: 'MPV SELECTIONS GUIDELINES',
+    img: ''
   },
 ];

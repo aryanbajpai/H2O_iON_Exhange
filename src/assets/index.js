@@ -43,9 +43,11 @@ import clientsRelation from './images/servicesImages/clientsRelation.jpg';
 import turnkeyProject from './images/servicesImages/turnkeyBusiness.jpg';
 import pumpsBusiness from './images/servicesImages/pumpsBusiness.jpg';
 
+import roTreatmentImg from './images/products/roWaterTreamtmentImg.jpg'
+
 export { 
     goGreen, saveEnvironment, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
     drinkingWater, industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
     latestPrjct2, playBtn,  aboutUsBg, aboutUs, initiative, azud, csm, cnp, lanxess, ionExchange, dow, hydranautics, 
-    addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness,
+    addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness, roTreatmentImg,
 }; 

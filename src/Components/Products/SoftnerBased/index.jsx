@@ -1,7 +1,7 @@
 import React from 'react'
 import { CommonHeader, Navigation } from '../../../ReusableComponents'
 
-const AddedMinerals = () => {
+const SoftnerBased = () => {
   return (
     <main>
       <CommonHeader
@@ -15,4 +15,4 @@ const AddedMinerals = () => {
   )
 }
 
-export default AddedMinerals;
+export default SoftnerBased;

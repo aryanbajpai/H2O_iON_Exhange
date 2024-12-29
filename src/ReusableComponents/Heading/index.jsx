@@ -1,20 +1,20 @@
 import React from 'react';
 import '../../index.css';
 
-const Heading = ({ text, span, dark }) => {
+const Heading = ({ text, span, dark, addStyle }) => {
   return (
     <div
-      className={`text-[36px] font-bold ${
-        dark ? 'text-[#0088b0]' : 'text-[#252525]'
+      className={`font-bold ${addStyle ? addStyle : 'text-[36px]'} ${
+        dark ? 'text-[#0088b0]' : 'text-[#383838]'
       }`}
-      style={{ fontFamily: "'Alegreya', serif", fontOpticalSizing: 'auto', fontWeight: '500', fontStyle: 'normal'}} 
+      style={{ fontFamily: "'Alegreya', serif", fontWeight: '700', fontStyle: 'normal'}} 
     >
       {text}{' '}
       <span
         className="text-[#33a0c2]"
         style={{ fontFamily: '"Alegreya", serif', fontSize: "42px", fontWeight: "900" }}
       >
-      
+        {span}
       </span>
     </div>
   );

@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container } from '../../Basics';
+import { aboutUsBg } from '../../assets';
 
 const ComponentBanner = ({ head, tail, bgImg }) => {
     return (
         <footer
             className="h-auto bg-fixed bg-cover bg-center"
             style={{
-                backgroundImage: `url(${bgImg})`,
+                // backgroundImage: `url(${bgImg})`,
+                backgroundImage: `url(${aboutUsBg})`,
             }}
         >
             <Container classname1={"h-auto py-16 text-white"}>
