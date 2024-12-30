@@ -5,7 +5,7 @@ const SeaWaterPlant = () => {
   return (
     <main>
       <CommonHeader
-        head="RO Based Water Treatment Plant"
+        head="Sea Water Plant"
         tail='"Nothing in the world is more flexible and yielding then water"'
         // bgImg={aboutUsBg}
         headBanner={true}

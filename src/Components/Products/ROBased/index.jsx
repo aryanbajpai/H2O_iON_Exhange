@@ -7,8 +7,8 @@ const ROBased = () => {
   return (
     <main>
       <CommonHeader
-        head="RO Based Water Treatment Plant"
-        tail='"Nothing in the world is more flexible and yielding then water"'
+        head="Fully Automatic Water Treatment Plant"
+        tail='"Nothing in the world is more flexible and yielding then water""'
         // bgImg={aboutUsBg}
         headBanner={true}
       />

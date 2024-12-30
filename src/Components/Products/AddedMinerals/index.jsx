@@ -5,7 +5,7 @@ const AddedMinerals = () => {
   return (
     <main>
       <CommonHeader
-        head="RO Based Water Treatment Plant"
+        head="ADDED MINERAL"
         tail='"Nothing in the world is more flexible and yielding then water"'
         // bgImg={aboutUsBg}
         headBanner={true}

@@ -5,7 +5,7 @@ const UltraFiltration = () => {
   return (
     <main>
       <CommonHeader
-        head="RO Based Water Treatment Plant"
+        head="ULTRA FILTRATION WATER TREATMENT PLANT"
         tail='"Nothing in the world is more flexible and yielding then water"'
         // bgImg={aboutUsBg}
         headBanner={true}

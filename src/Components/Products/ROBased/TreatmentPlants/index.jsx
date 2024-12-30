@@ -6,6 +6,7 @@ const TreatmentPlants = () => {
   const [selectedIndex, setSelectedIndex] = useState(RoPlantTreatments[1]);
   console.log(selectedIndex?.child?.quality);
 
+  console.log(selectedIndex?.id)
   return (
     <main className="grid grid-cols-[25%_71.5%] gap-10">
       <ListOfContent

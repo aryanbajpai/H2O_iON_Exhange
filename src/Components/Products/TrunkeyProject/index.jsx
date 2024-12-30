@@ -5,7 +5,7 @@ const TrunkeyProject = () => {
   return (
     <main>
       <CommonHeader
-        head="RO Based Water Treatment Plant"
+        head="Packaged Drinking Water Turnkey Project"
         tail='"Nothing in the world is more flexible and yielding then water"'
         // bgImg={aboutUsBg}
         headBanner={true}
