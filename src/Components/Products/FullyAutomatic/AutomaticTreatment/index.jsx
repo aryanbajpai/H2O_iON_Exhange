@@ -17,7 +17,7 @@ const AutomaticTreatment = () => {
       {selectedIndex && (
         <ContentBody
           title={selectedIndex?.name}
-          img={selectedIndex?.child?.img}
+          img={selectedIndex?.img}
           quality={selectedIndex?.child?.quality}
           modal={selectedIndex?.child?.model}
           facility={selectedIndex?.child?.facility}

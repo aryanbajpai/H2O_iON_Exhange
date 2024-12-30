@@ -44,10 +44,31 @@ import turnkeyProject from './images/servicesImages/turnkeyBusiness.jpg';
 import pumpsBusiness from './images/servicesImages/pumpsBusiness.jpg';
 
 import roTreatmentImg from './images/products/roWaterTreamtmentImg.jpg'
+import pc5000 from './images/products/roBased/pc5000.png';
+import pc3000 from './images/products/roBased/pc3000.jpg'
+import pc100150 from './images/products/roBased/pc100150.jpg';
+import pc2000 from './images/products/roBased/pc2000.jpg'
+import pc1000 from './images/products/roBased/pc1000.jpg';
+import pc1000ro from './images/products/roBased/pc1000ro.jpg'
+import pc500semi from './images/products/roBased/pc500semi.png';
+import pc250 from './images/products/roBased/pc250.jpg'
+import pc75 from './images/products/roBased/pc75.jpg';
+import pc50 from './images/products/roBased/pc50.jpg'
+import pc25 from './images/products/roBased/pc25.jpg';
+import iro1000 from './images/products/roBased/iro1000.jpg'
+import iro750 from './images/products/roBased/iro750.jpg';
+import iro100 from './images/products/roBased/iro100.jpg'
+import remoteMonitor from './images/products/fullyAuto/remoteMonitor.jpg';
+import mvpSelection from './images/products/fullyAuto/mvpSelection.jpg';
+import multiAuto from './images/products/fullyAuto/multiAuto.png';
+import autoFilter from './images/products/fullyAuto/autoFilter.png';
+import aptAuto from './images/products/fullyAuto/aptAuto.jpg';
 
 export { 
     goGreen, saveEnvironment, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
     drinkingWater, industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
     latestPrjct2, playBtn,  aboutUsBg, aboutUs, initiative, azud, csm, cnp, lanxess, ionExchange, dow, hydranautics, 
     addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness, roTreatmentImg,
+    pc5000, pc3000, pc100150, pc2000, pc1000, pc1000ro, pc500semi, pc250, pc75, pc50, pc25, iro1000, 
+    iro750, iro100, remoteMonitor, mvpSelection, multiAuto, autoFilter, aptAuto,
 }; 

@@ -1,4 +1,6 @@
 import {
+  aptAuto,
+  autoFilter,
   azud,
   clientRel,
   clientsRelation,
@@ -12,12 +14,29 @@ import {
   industrialPumps,
   initiative,
   ionExchange,
+  iro100,
+  iro1000,
+  iro750,
   lanxess,
   latestPrjct1,
   latestPrjct2,
   mission,
+  multiAuto,
+  mvpSelection,
   pbs,
+  pc1000,
+  pc1000ro,
+  pc100150,
+  pc2000,
+  pc25,
+  pc250,
+  pc3000,
+  pc50,
+  pc5000,
+  pc500semi,
+  pc75,
   pumpsBusiness,
+  remoteMonitor,
   roTreatmentImg,
   sds,
   spfs,
@@ -334,7 +353,7 @@ export const RoPlantTreatments = [
     id: 3,
     name: 'PLANT CAPACITY :- 5000 LPH',
     child: {
-      img: '',
+      img: pc5000,
       quality: true,
       facility: true,
       model: false,
@@ -344,7 +363,7 @@ export const RoPlantTreatments = [
     id: 4,
     name: 'PLANT CAPACITY :- RO 3000 LPH (FULLY AUTO)',
     child: {
-      img: '',
+      img: pc3000,
       quality: true,
       facility: true,
       model: false,
@@ -354,7 +373,7 @@ export const RoPlantTreatments = [
     id: 5,
     name: 'PLANT CAPACITY :- 2000 LPH (FULLY SS DELUXE)',
     child: {
-      img: '',
+      img: pc2000,
       quality: true,
       facility: true,
       model: false,
@@ -364,7 +383,7 @@ export const RoPlantTreatments = [
     id: 6,
     name: 'PLANT CAPACITY :- 1000 LPH (FULLY AUTO RO WITH SOFTENER)',
     child: {
-      img: '',
+      img: pc1000,
       quality: true,
       facility: true,
       model: false,
@@ -374,7 +393,7 @@ export const RoPlantTreatments = [
     id: 7,
     name: 'PLANT CAPACITY :- 1000 LPH (RO SS SEMI AUTO)',
     child: {
-      img: '',
+      img: pc1000ro,
       quality: true,
       facility: true,
       model: true,
@@ -384,7 +403,7 @@ export const RoPlantTreatments = [
     id: 8,
     name: 'PLANT CAPACITY :- 2000 LPH (RO SS SEMI AUTO)',
     child: {
-      img: '',
+      img: pc1000ro,
       quality: true,
       facility: true,
       model: true,
@@ -394,7 +413,7 @@ export const RoPlantTreatments = [
     id: 9,
     name: 'PLANT CAPACITY :- 500 LPH SEMI SS',
     child: {
-      img: '',
+      img: pc500semi,
       quality: true,
       facility: true,
       model: true,
@@ -404,7 +423,7 @@ export const RoPlantTreatments = [
     id: 10,
     name: 'PLANT CAPACITY :- 250 LPH',
     child: {
-      img: '',
+      img: pc250,
       quality: true,
       facility: true,
       model: true,
@@ -415,7 +434,7 @@ export const RoPlantTreatments = [
     name: 'PLANT CAPACITY :- 100 / 150 LPH',
     child: [
       {
-        img: '',
+        img: pc100150,
         quality: true,
         facility: true,
         model: true,
@@ -426,7 +445,7 @@ export const RoPlantTreatments = [
     id: 12,
     name: 'PLANT CAPACITY :- 75 LPH',
     child: {
-      img: '',
+      img: pc75,
       quality: true,
       facility: true,
       model: true,
@@ -436,7 +455,7 @@ export const RoPlantTreatments = [
     id: 13,
     name: 'PLANT CAPACITY :- 50 LPH',
     child: {
-      img: '',
+      img: pc50,
       quality: true,
       facility: true,
       model: true,
@@ -446,7 +465,7 @@ export const RoPlantTreatments = [
     id: 14,
     name: 'PLANT CAPACITY :- 35 LPH',
     child: {
-      img: '',
+      img: pc50,
       quality: true,
       facility: true,
       model: true,
@@ -456,7 +475,7 @@ export const RoPlantTreatments = [
     id: 15,
     name: 'PLANT CAPACITY :- 25 LPH',
     child: {
-      img: '',
+      img: pc25,
       quality: true,
       facility: true,
       model: true,
@@ -466,7 +485,7 @@ export const RoPlantTreatments = [
     id: 16,
     name: 'INDUSTRIAL RO :- RO 100 LPH',
     child: {
-      img: '',
+      img: iro100,
       quality: true,
       facility: true,
       model: false,
@@ -476,7 +495,7 @@ export const RoPlantTreatments = [
     id: 17,
     name: 'INDUSTRIAL RO :- RO 150 LPH',
     child: {
-      img: '',
+      img: iro100,
       quality: true,
       facility: true,
       model: false,
@@ -486,7 +505,7 @@ export const RoPlantTreatments = [
     id: 18,
     name: 'INDUSTRIAL RO :- RO 250 LPH',
     child: {
-      img: '',
+      img: iro100,
       quality: true,
       facility: true,
       model: false,
@@ -496,7 +515,7 @@ export const RoPlantTreatments = [
     id: 19,
     name: 'INDUSTRIAL RO :- RO 750 LPH FULLY SS DELUXE',
     child: {
-      img: '',
+      img: iro750,
       quality: true,
       facility: true,
       model: false,
@@ -506,7 +525,7 @@ export const RoPlantTreatments = [
     id: 20,
     name: 'INDUSTRIAL RO :- RO 1000 LPH SEMI AUTO',
     child: {
-      img: '',
+      img: iro1000,
       quality: true,
       facility: true,
       model: false,
@@ -516,7 +535,7 @@ export const RoPlantTreatments = [
     id: 21,
     name: 'INDUSTRIAL RO :- RO 2000 (FULLY DELUXE RO)',
     child: {
-      img: '',
+      img: iro1000,
       quality: true,
       facility: true,
       model: false,
@@ -526,7 +545,7 @@ export const RoPlantTreatments = [
     id: 22,
     name: 'RO Based Water Treatment Plant',
     child: {
-      img: '',
+      img: roTreatmentImg,
       quality: true,
       facility: true,
       model: false,
@@ -548,26 +567,26 @@ export const AutomaticWaterTreatment = [
   {
     id: 3,
     name: 'MULTI PORT VALVES PLE ROLES',
-    img: '',
+    img: multiAuto,
   },
   {
     id: 4,
     name: 'FULLY AUTOMATIC REMOTE MONITOR WTP/STP FROM INITIATIVE',
-    img: '',
+    img: remoteMonitor,
   },
   {
     id: 5,
     name: 'APT AFFORDABLE AUTOMATION',
-    img: '',
+    img: aptAuto,
   },
   {
     id: 6,
     name: 'FULLY AUTOMATIC FILTER / SOFTENER / R.O.',
-    img: '',
+    img: autoFilter,
   },
   {
     id: 7,
     name: 'MPV SELECTIONS GUIDELINES',
-    img: ''
+    img: mvpSelection,
   },
 ];
