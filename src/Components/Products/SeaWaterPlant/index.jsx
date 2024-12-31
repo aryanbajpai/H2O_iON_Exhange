@@ -1,5 +1,7 @@
-import React from 'react'
-import { CommonHeader, Navigation } from '../../../ReusableComponents'
+import React from "react";
+import { CommonHeader, Navigation } from "../../../ReusableComponents";
+import { Container } from "../../../Basics";
+import Info from "./Info";
 
 const SeaWaterPlant = () => {
   return (
@@ -11,8 +13,12 @@ const SeaWaterPlant = () => {
         headBanner={true}
       />
       <Navigation child="RO Based Water Treatment Plant" />
+
+      <Container classname1={"my-24"}>
+        <Info />
+      </Container>
     </main>
-  )
-}
+  );
+};
 
 export default SeaWaterPlant;

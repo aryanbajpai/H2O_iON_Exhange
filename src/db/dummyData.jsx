@@ -1,4 +1,5 @@
 import {
+  addedMineralImg,
   aptAuto,
   autoFilter,
   azud,
@@ -35,6 +36,7 @@ import {
   pc5000,
   pc500semi,
   pc75,
+  poolImg,
   pumpsBusiness,
   remoteMonitor,
   roTreatmentImg,
@@ -324,7 +326,7 @@ export const productsDummy = [
   {
     id: 10,
     name: "Sea Water Plant",
-    link: "/sea-water-palnt",
+    link: "/sea-water-plant",
   },
   {
     id: 11,
@@ -588,5 +590,96 @@ export const AutomaticWaterTreatment = [
     id: 7,
     name: 'MPV SELECTIONS GUIDELINES',
     img: mvpSelection,
+  },
+];
+
+export const addedMineralData = [
+  {
+    id: 1,
+    name: 'All Products',
+    img: ''
+  },
+  {
+    id: 2,
+    name: 'ADDED MINERAL',
+    img : addedMineralImg,
+  },
+];
+
+export const ultraFiltrationTreatment = [
+  {
+    id: 1,
+    name: 'All Products',
+    img: ''
+  },
+  {
+    id: 2,
+    name: 'ULTRA FILTRATION WATER TREATMENT PLANT',
+    img : pc1000ro,
+  },
+];
+
+export const ultraViolateTreatment = [
+  {
+    id: 1,
+    name: 'All Products',
+    img: ''
+  },
+  {
+    id: 2,
+    name: 'ULTRA VIOLATE WATER TREATMENT PLANT',
+    img : pc1000ro,
+  },
+];
+
+export const softBaseTreatment = [
+  {
+    id: 1,
+    name: 'All Products',
+    img: ''
+  },
+  {
+    id: 2,
+    name: 'Softner Base Water Treatment Plant',
+    img : iro1000,
+    quality: true,
+  },
+]; 
+
+export const dmFiltration = [
+  {
+    id: 1,
+    name: 'All Products',
+    img: ''
+  },
+  {
+    id: 2,
+    name: 'DM PLANT & FILTRATION PLANT',
+    img : '',
+    quality: true,
+  },
+]; 
+
+export const swimmingPoolFiltration = [
+  {
+    id: 1,
+    name: 'All Products',
+    img: ''
+  },
+  {
+    id: 2,
+    name: 'Swimming Pool Filteration Plant',
+    img : poolImg,
+  },
+];
+
+export const plantSeaWater = [
+  {
+    id: 1,
+    name: 'All Products',
+  },
+  {
+    id: 2,
+    name: 'Sea Water Plant',
   },
 ];

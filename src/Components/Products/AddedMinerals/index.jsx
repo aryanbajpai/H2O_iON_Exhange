@@ -1,5 +1,7 @@
 import React from 'react'
 import { CommonHeader, Navigation } from '../../../ReusableComponents'
+import { Container } from '../../../Basics';
+import PurifiedWater from './PurifiedWater';
 
 const AddedMinerals = () => {
   return (
@@ -11,6 +13,11 @@ const AddedMinerals = () => {
         headBanner={true}
       />
       <Navigation child="RO Based Water Treatment Plant" />
+
+      <Container classname1={"my-24"}>
+        {/* Left */}
+        <PurifiedWater />
+      </Container>
     </main>
   )
 }

@@ -1,20 +1,17 @@
 import React, { useState } from "react";
 import { RoPlantTreatments } from "../../../../db/dummyData";
-import {ContentBody, ListOfContent} from "../../../../ReusableComponents/Products/";
+import { ContentBody, GridBox } from "../../../../ReusableComponents/Products/";
 
 const TreatmentPlants = () => {
   const [selectedIndex, setSelectedIndex] = useState(RoPlantTreatments[1]);
-  console.log(selectedIndex?.child?.quality);
 
-  console.log(selectedIndex?.id)
+  console.log(selectedIndex?.id);
   return (
-    <main className="grid grid-cols-[25%_71.5%] gap-10">
-      <ListOfContent
-        dummyData={RoPlantTreatments}
-        setSelectedIndex={setSelectedIndex}
-        selectedIndex={selectedIndex}
-      />
-
+    <GridBox
+      listData={RoPlantTreatments}
+      listIndex={selectedIndex}
+      setListIndex={setSelectedIndex}
+    >
       {selectedIndex && (
         <ContentBody
           title={selectedIndex?.name}
@@ -24,7 +21,7 @@ const TreatmentPlants = () => {
           facility={selectedIndex?.child?.facility}
         />
       )}
-    </main>
+    </GridBox>
   );
 };
 

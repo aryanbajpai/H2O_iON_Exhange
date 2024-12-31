@@ -26,8 +26,8 @@ function App() {
              <Route path='/utra-filteration-water-treatent-plant' Component={UltraFiltration}/>
              <Route path='/utra-violate-water-treatent-plant' Component={UltraViolate}/>
              <Route path='softner-base-water-treatment-plant' Component={SoftnerBased}/>
-             <Route path='/dm-plant-filteration-plant' Component={DMPlant}/>
-             <Route path='/swimming-pool-filteration-plant' Component={PoolFiltration}/>
+             <Route path='/dm-plant-filtration-plant' Component={DMPlant}/>
+             <Route path='/swimming-pool-filtration-plant' Component={PoolFiltration}/>
              <Route path='/sea-water-plant' Component={SeaWaterPlant}/>
              <Route path='/products' Component={AllProducts}/>
           </Routes>

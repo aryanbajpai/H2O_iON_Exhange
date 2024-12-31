@@ -8,7 +8,7 @@ const ContentBody = ({title, quality, facility, modal, img}) => {
   return (
     <section className='w-full'>
         <Heading text={title} addStyle={'text-[25px]'} />
-        <img src={img} alt={title} className='my-3' />
+        {img && <img src={img} alt={title} className='my-3' />}
         {modal && <ModalTable/>}
         {quality && <QualityTable />}
         {facility && <AdvancedFacility/>}

@@ -1,5 +1,7 @@
-import React from 'react'
-import { CommonHeader, Navigation } from '../../../ReusableComponents'
+import React from "react";
+import { CommonHeader, Navigation } from "../../../ReusableComponents";
+import { Container } from "../../../Basics";
+import SoftBaseTreatment from "./SoftBaseTreatment";
 
 const SoftnerBased = () => {
   return (
@@ -11,8 +13,12 @@ const SoftnerBased = () => {
         headBanner={true}
       />
       <Navigation child="RO Based Water Treatment Plant" />
+
+      <Container classname1={"my-24"}>
+        <SoftBaseTreatment />
+      </Container>
     </main>
-  )
-}
+  );
+};
 
 export default SoftnerBased;
