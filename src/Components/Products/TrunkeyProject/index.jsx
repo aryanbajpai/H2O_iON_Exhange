@@ -1,5 +1,7 @@
 import React from 'react'
 import { CommonHeader, Navigation } from '../../../ReusableComponents'
+import PackageDrinking from './PackageDrinking';
+import { Container } from '../../../Basics';
 
 const TrunkeyProject = () => {
   return (
@@ -11,6 +13,10 @@ const TrunkeyProject = () => {
         headBanner={true}
       />
       <Navigation child="RO Based Water Treatment Plant" />
+
+      <Container classname1={"my-24"}>
+        <PackageDrinking />
+      </Container>
     </main>
   )
 }

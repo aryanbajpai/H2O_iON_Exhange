@@ -67,6 +67,20 @@ import addedMineralImg from './images/products/addedMineral/addedMineral.png';
 import poolImg from './images/products/pool.png';
 import poolFiltration from './images/products/poolFiltration.png';
 import seaWaterPlantImg from './images/products/seaWater.jpg';
+import bottleWashing from './images/products/packageDrinking/autoBottleWashing.jpg';
+import batchCoding from './images/products/packageDrinking/batchCoding.jpg';
+import blowModeling from './images/products/packageDrinking/blowModeling.jpg';
+import glassPacking from './images/products/packageDrinking/glassPacking.jpg';
+import jarWashing from './images/products/packageDrinking/jarWash.jpg';
+import ozonation from './images/products/packageDrinking/ozonation.jpg';
+import pdwt from './images/products/packageDrinking/pdwt.jpg';
+import pouchPacking from './images/products/packageDrinking/pouchPacking.jpg';
+import roPlant from './images/products/packageDrinking/roPlant.jpg';
+import shrinkTunnel from './images/products/packageDrinking/shrinkTunnel.jpg';
+import ssStorage from './images/products/packageDrinking/ssStorage.jpg';
+import transferPump from './images/products/packageDrinking/transferPump.png';
+import uv from './images/products/packageDrinking/uv.png';
+import withWebSealer from './images/products/packageDrinking/withWebSealer.jpg'; 
 
 export { 
     goGreen, saveEnvironment, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
@@ -76,4 +90,6 @@ export {
     pc5000, pc3000, pc100150, pc2000, pc1000, pc1000ro, pc500semi, pc250, pc75, pc50, pc25, iro1000, 
     iro750, iro100, remoteMonitor, mvpSelection, multiAuto, autoFilter, aptAuto, addedMineralImg, poolImg,
     poolFiltration, seaWaterPlantImg,
+    bottleWashing, batchCoding, blowModeling, glassPacking, jarWashing, ozonation, pdwt, pouchPacking,
+    roPlant, shrinkTunnel, ssStorage, transferPump, uv, withWebSealer,
 }; 
