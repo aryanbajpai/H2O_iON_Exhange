@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Container } from '../../../Basics';
 import { Heading } from '../../../ReusableComponents';
 import { mainBusiness, needHelp } from '../../../db/dummyData';
+import ZoomInComponent from '../../../ReusableComponents/ZoomInComponent';
 
 const MainServices = () => {
   return (
@@ -14,20 +15,7 @@ const MainServices = () => {
 
             <div className='mt-24'>
                 <p className='text-[30px] text-[#252525]'>Overview of our main business</p>
-                <div className='p-5 grid grid-cols-2 gap-10'>
-                    {mainBusiness?.map((m) => (
-                        <div key={m?.id} className='group w-full'>
-                            <figure className='w-full h-[230px] overflow-hidden'>
-                                <img src={m?.img} alt={m?.title} className='w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 cursor-pointer' />
-                            </figure>
-                            <div className='mt-7'>
-                                <p className='text-lg font-[500] my-5'>{m?.title}</p>
-                                <p className='text-[#979797] my-4'>{m?.text}</p>
-                                <Button type='danger' btnText='READ MORE' />
-                            </div>
-                        </div>
-                    ))}
-                </div>
+                <ZoomInComponent dummyData={mainBusiness} />
             </div>
         </section>
 

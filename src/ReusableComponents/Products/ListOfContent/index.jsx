@@ -15,7 +15,7 @@ const ListOfContent = ({ dummyData, setSelectedIndex, selectedIndex }) => {
                 : "text-[#747474] bg-[#f3f3f3]"
             } transition-all duration-300 ease-out`}
             onClick={() =>
-              i === 0 ? navigate("/products") : setSelectedIndex(d)
+              i === 0 ? navigate("/products") : d?.link ? navigate(`${d?.link}`) : setSelectedIndex(d)
             }
           >
             {d?.name}

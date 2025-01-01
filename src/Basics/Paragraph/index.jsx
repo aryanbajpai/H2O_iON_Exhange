@@ -2,7 +2,7 @@ import React from 'react'
 
 const Paragraph = ({ addClass, para }) => {
   return (
-    <p className={`text-[#a8a8a8] ${addClass}`}>{para}</p>
+    <p className={`text-[#9b9b9b] ${addClass}`}>{para}</p>
   )
 }
 

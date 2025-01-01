@@ -7,6 +7,18 @@ import ServicesComponent from './Components/ServicesComponent';
 import { AddedMinerals, SoftnerBased, DMPlant, FullyAutomatic, PoolFiltration, SeaWaterPlant, TrunkeyProject, UltraFiltration, UltraViolate } from './Components/Products';
 import ContactUs from './Components/ContactUs';
 import { AllProducts, ROBased } from './Components/Products';
+import EffluentTreatment from './Components/Products/AllProducts/ProductList/EffluentTreatment';
+import OnlineChiller from './Components/Products/AllProducts/ProductList/OnlineChiller';
+import WaterCooler from './Components/Products/AllProducts/ProductList/WaterCooler';
+import Ozonator from './Components/Products/AllProducts/ProductList/Ozonator';
+import AntiScallant from './Components/Products/AllProducts/ProductList/AntiScallant';
+import Meter from './Components/Products/AllProducts/ProductList/Meter';
+import Micron from './Components/Products/AllProducts/ProductList/Micron';
+import FilterHousing from './Components/Products/AllProducts/ProductList/FilterHousing';
+import Membrane from './Components/Products/AllProducts/ProductList/Membrane';
+import IndustrialPumps from './Components/Products/AllProducts/ProductList/IndustrialPumps';
+import Vessel from './Components/Products/AllProducts/ProductList/Vessel';
+import Accessories from './Components/Products/AllProducts/ProductList/Accessories';
 
 function App() {
 
@@ -15,7 +27,7 @@ function App() {
         <Router>
           <MainNavBar />
           <Routes>
-             <Route path='/' exact Component={LandingPage}/>
+             <Route path='/' exact element={<LandingPage/>}/>
              <Route path='/about-us' Component={AboutUs}/>
              <Route path='/services' Component={ServicesComponent}/>
              <Route path='/contact-us' Component={ContactUs}/>
@@ -30,6 +42,19 @@ function App() {
              <Route path='/swimming-pool-filtration-plant' Component={PoolFiltration}/>
              <Route path='/sea-water-plant' Component={SeaWaterPlant}/>
              <Route path='/products' Component={AllProducts}/>
+
+             <Route path='/effluent-treatent-plant-or-sewage-treatent-plant' exact element={<EffluentTreatment/>}/>
+             <Route path='/online-chillers' exact element={<OnlineChiller/>}/>
+             <Route path='/water-cooler' exact element={<WaterCooler  />}/>
+             <Route path='/ozonator-or-oxygen-concentrator-greenz' exact element={<Ozonator/>}/>
+             <Route path='/anti-scallant-d-scallant-chemicals' exact element={<AntiScallant/>}/>
+             <Route path='/meter-or-industrail-pane' exact element={<Meter/>}/>
+             <Route path='/micron-cartridge-filter' exact element={<Micron/>}/>
+             <Route path='/filter-housing-or-industrial-housing' exact element={<FilterHousing/>}/>
+             <Route path='/membrane' exact element={<Membrane/>}/>
+             <Route path='/industrial-pumps' exact element={<IndustrialPumps/>}/>
+             <Route path='/vessel' exact element={<Vessel/>}/>
+             <Route path='/accessories' exact element={<Accessories/>}/>
           </Routes>
           <Footer />        
         </Router>

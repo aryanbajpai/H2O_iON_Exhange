@@ -86,6 +86,21 @@ import ssStorage from './images/products/packageDrinking/ssStorage.jpg';
 import transferPump from './images/products/packageDrinking/transferPump.png';
 import uv from './images/products/packageDrinking/uv.png';
 import withWebSealer from './images/products/packageDrinking/withWebSealer.jpg'; 
+import softBase from './images/products/softBase.jpg'
+import dmPlant from './images/products/dmPlant.jpg';
+
+import effluent from './images/products/allProductsImg/effluent.png';
+import chiller from './images/products/allProductsImg/chiller.png';
+import waterCooler from './images/products/allProductsImg/waterCooler.jpg';
+import oxygen from './images/products/allProductsImg/oxygen.jpg';
+import anti from './images/products/allProductsImg/anti.png';
+import meter from './images/products/allProductsImg/meter.png';
+import micron from './images/products/allProductsImg/micron.png';
+import filterHousing from './images/products/allProductsImg/filterHousing.png';
+import membrane from './images/products/allProductsImg/membrane.png';
+import industrial from './images/products/allProductsImg/industrial.png';
+import vessel from './images/products/allProductsImg/vessel.png';
+import accessories from './images/products/allProductsImg/accessories.png';
 
 export { 
     goGreen, saveEnvironment, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
@@ -94,7 +109,9 @@ export {
     addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness, roTreatmentImg,
     pc5000, pc3000, pc100150, pc2000, pc1000, pc1000ro, pc500semi, pc250, pc75, pc50, pc25, iro1000, 
     iro750, iro100, remoteMonitor, mvpSelection, multiAuto, autoFilter, aptAuto, addedMineralImg, poolImg,
-    poolFiltration, seaWaterPlantImg, handleAssembly, mineral,
+    poolFiltration, seaWaterPlantImg, handleAssembly, mineral, softBase, dmPlant,
     bottleWashing, batchCoding, blowModeling, glassPacking, jarWashing, ozonation, pdwt, pouchPacking,
     roPlant, shrinkTunnel, ssStorage, transferPump, uv, withWebSealer,
+    effluent, chiller, waterCooler, oxygen,anti, meter, micron, filterHousing, membrane, industrial,
+    vessel, accessories,
 }; 
