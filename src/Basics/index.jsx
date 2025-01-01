@@ -5,3 +5,4 @@ export { default as Button } from './Button';
 export { default as InputFields } from './InputFields';
 export { default as TextAreaField } from './TextAreaField';
 export { default as Address } from './Address';
+export { default as Paragraph } from './Paragraph';

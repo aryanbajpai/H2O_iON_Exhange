@@ -352,12 +352,12 @@ export const productsDummy = [
 export const RoPlantTreatments = [
   {
     id: 1,
-    name: 'All Products',
+    name: "All Products",
     child: [],
   },
   {
     id: 2,
-    name: 'RO Based Water Treatment Plant',
+    name: "RO Based Water Treatment Plant",
     child: {
       img: roTreatmentImg,
       quality: false,
@@ -367,7 +367,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 3,
-    name: 'PLANT CAPACITY :- 5000 LPH',
+    name: "PLANT CAPACITY :- 5000 LPH",
     child: {
       img: pc5000,
       quality: true,
@@ -377,7 +377,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 4,
-    name: 'PLANT CAPACITY :- RO 3000 LPH (FULLY AUTO)',
+    name: "PLANT CAPACITY :- RO 3000 LPH (FULLY AUTO)",
     child: {
       img: pc3000,
       quality: true,
@@ -387,7 +387,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 5,
-    name: 'PLANT CAPACITY :- 2000 LPH (FULLY SS DELUXE)',
+    name: "PLANT CAPACITY :- 2000 LPH (FULLY SS DELUXE)",
     child: {
       img: pc2000,
       quality: true,
@@ -397,7 +397,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 6,
-    name: 'PLANT CAPACITY :- 1000 LPH (FULLY AUTO RO WITH SOFTENER)',
+    name: "PLANT CAPACITY :- 1000 LPH (FULLY AUTO RO WITH SOFTENER)",
     child: {
       img: pc1000,
       quality: true,
@@ -407,7 +407,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 7,
-    name: 'PLANT CAPACITY :- 1000 LPH (RO SS SEMI AUTO)',
+    name: "PLANT CAPACITY :- 1000 LPH (RO SS SEMI AUTO)",
     child: {
       img: pc1000ro,
       quality: true,
@@ -417,7 +417,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 8,
-    name: 'PLANT CAPACITY :- 2000 LPH (RO SS SEMI AUTO)',
+    name: "PLANT CAPACITY :- 2000 LPH (RO SS SEMI AUTO)",
     child: {
       img: pc1000ro,
       quality: true,
@@ -427,7 +427,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 9,
-    name: 'PLANT CAPACITY :- 500 LPH SEMI SS',
+    name: "PLANT CAPACITY :- 500 LPH SEMI SS",
     child: {
       img: pc500semi,
       quality: true,
@@ -437,7 +437,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 10,
-    name: 'PLANT CAPACITY :- 250 LPH',
+    name: "PLANT CAPACITY :- 250 LPH",
     child: {
       img: pc250,
       quality: true,
@@ -447,7 +447,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 11,
-    name: 'PLANT CAPACITY :- 100 / 150 LPH',
+    name: "PLANT CAPACITY :- 100 / 150 LPH",
     child: [
       {
         img: pc100150,
@@ -459,7 +459,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 12,
-    name: 'PLANT CAPACITY :- 75 LPH',
+    name: "PLANT CAPACITY :- 75 LPH",
     child: {
       img: pc75,
       quality: true,
@@ -469,7 +469,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 13,
-    name: 'PLANT CAPACITY :- 50 LPH',
+    name: "PLANT CAPACITY :- 50 LPH",
     child: {
       img: pc50,
       quality: true,
@@ -479,7 +479,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 14,
-    name: 'PLANT CAPACITY :- 35 LPH',
+    name: "PLANT CAPACITY :- 35 LPH",
     child: {
       img: pc50,
       quality: true,
@@ -489,7 +489,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 15,
-    name: 'PLANT CAPACITY :- 25 LPH',
+    name: "PLANT CAPACITY :- 25 LPH",
     child: {
       img: pc25,
       quality: true,
@@ -499,7 +499,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 16,
-    name: 'INDUSTRIAL RO :- RO 100 LPH',
+    name: "INDUSTRIAL RO :- RO 100 LPH",
     child: {
       img: iro100,
       quality: true,
@@ -509,7 +509,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 17,
-    name: 'INDUSTRIAL RO :- RO 150 LPH',
+    name: "INDUSTRIAL RO :- RO 150 LPH",
     child: {
       img: iro100,
       quality: true,
@@ -519,7 +519,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 18,
-    name: 'INDUSTRIAL RO :- RO 250 LPH',
+    name: "INDUSTRIAL RO :- RO 250 LPH",
     child: {
       img: iro100,
       quality: true,
@@ -529,7 +529,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 19,
-    name: 'INDUSTRIAL RO :- RO 750 LPH FULLY SS DELUXE',
+    name: "INDUSTRIAL RO :- RO 750 LPH FULLY SS DELUXE",
     child: {
       img: iro750,
       quality: true,
@@ -539,7 +539,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 20,
-    name: 'INDUSTRIAL RO :- RO 1000 LPH SEMI AUTO',
+    name: "INDUSTRIAL RO :- RO 1000 LPH SEMI AUTO",
     child: {
       img: iro1000,
       quality: true,
@@ -549,7 +549,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 21,
-    name: 'INDUSTRIAL RO :- RO 2000 (FULLY DELUXE RO)',
+    name: "INDUSTRIAL RO :- RO 2000 (FULLY DELUXE RO)",
     child: {
       img: iro1000,
       quality: true,
@@ -559,7 +559,7 @@ export const RoPlantTreatments = [
   },
   {
     id: 22,
-    name: 'RO Based Water Treatment Plant',
+    name: "RO Based Water Treatment Plant",
     child: {
       img: roTreatmentImg,
       quality: true,
@@ -572,37 +572,37 @@ export const RoPlantTreatments = [
 export const AutomaticWaterTreatment = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
   },
   {
     id: 2,
-    name: 'Fully Automatic Water Treatment Plant',
-    img :'',
+    name: "Fully Automatic Water Treatment Plant",
+    img: "",
   },
   {
     id: 3,
-    name: 'MULTI PORT VALVES PLE ROLES',
+    name: "MULTI PORT VALVES PLE ROLES",
     img: multiAuto,
   },
   {
     id: 4,
-    name: 'FULLY AUTOMATIC REMOTE MONITOR WTP/STP FROM INITIATIVE',
+    name: "FULLY AUTOMATIC REMOTE MONITOR WTP/STP FROM INITIATIVE",
     img: remoteMonitor,
   },
   {
     id: 5,
-    name: 'APT AFFORDABLE AUTOMATION',
+    name: "APT AFFORDABLE AUTOMATION",
     img: aptAuto,
   },
   {
     id: 6,
-    name: 'FULLY AUTOMATIC FILTER / SOFTENER / R.O.',
+    name: "FULLY AUTOMATIC FILTER / SOFTENER / R.O.",
     img: autoFilter,
   },
   {
     id: 7,
-    name: 'MPV SELECTIONS GUIDELINES',
+    name: "MPV SELECTIONS GUIDELINES",
     img: mvpSelection,
   },
 ];
@@ -610,188 +610,190 @@ export const AutomaticWaterTreatment = [
 export const packageDrinking = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
   },
   {
     id: 2,
-    name: 'Packaged Drinking Water Turnkey Project',
-    img : pdwt,
+    name: "Packaged Drinking Water Turnkey Project",
+    img: pdwt,
   },
   {
     id: 3,
-    name: 'RO Plant',
+    name: "RO Plant",
     img: roPlant,
   },
   {
     id: 4,
-    name: 'U.V',
+    name: "U.V",
     img: uv,
   },
   {
     id: 5,
-    name: 'SS Storage Tank',
+    name: "SS Storage Tank",
     img: ssStorage,
   },
   {
     id: 6,
-    name: 'Ozonation',
+    name: "Ozonation",
     img: ozonation,
   },
   {
     id: 7,
-    name: 'Oxygen Market.',
-    img: '',
+    name: "Oxygen Market.",
+    img: "",
   },
   {
     id: 8,
-    name: 'Ozonation Transfer Pump',
-    img: '',
+    name: "Ozonation Transfer Pump",
+    img: "",
   },
   {
     id: 9,
-    name: 'Transfer Pump',
-    img : transferPump,
+    name: "Transfer Pump",
+    img: transferPump,
   },
   {
     id: 10,
-    name: 'Pouch Packing',
+    name: "Pouch Packing",
     img: pouchPacking,
   },
   {
     id: 11,
-    name: 'Glass Packing',
+    name: "Glass Packing",
     img: glassPacking,
   },
   {
     id: 12,
-    name: 'Jar Wash Filling and Packing',
+    name: "Jar Wash Filling and Packing",
     img: jarWashing,
   },
   {
     id: 13,
-    name: 'Auto Bottle Washing, Filling and Capping Machine.',
+    name: "Auto Bottle Washing, Filling and Capping Machine.",
     img: bottleWashing,
   },
   {
     id: 14,
-    name: 'Batch Coding',
+    name: "Batch Coding",
     img: batchCoding,
   },
   {
     id: 15,
-    name: 'Shrink Tunnel',
+    name: "Shrink Tunnel",
     img: shrinkTunnel,
   },
   {
     id: 16,
-    name: 'Shrink Tunnel with Web Sealer',
-    img : withWebSealer,
+    name: "Shrink Tunnel with Web Sealer",
+    img: withWebSealer,
   },
   {
     id: 17,
-    name: 'Blow Modeling',
+    name: "Blow Modeling",
     img: blowModeling,
   },
   {
     id: 18,
-    name: 'Air Compressors',
-    img: '',
+    name: "Air Compressors",
+    img: "",
   },
   {
     id: 19,
-    name: 'Cooling Tower',
-    img: '',
+    name: "Cooling Tower",
+    img: "",
   },
 ];
 
 export const addedMineralData = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
   },
   {
     id: 2,
-    name: 'ADDED MINERAL',
-    img : addedMineralImg,
+    name: "ADDED MINERAL",
+    img: addedMineralImg,
   },
 ];
 
 export const ultraFiltrationTreatment = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
+    quality: false,
   },
   {
     id: 2,
-    name: 'ULTRA FILTRATION WATER TREATMENT PLANT',
-    img : pc1000ro,
+    name: "ULTRA FILTRATION WATER TREATMENT PLANT",
+    img: pc1000ro,
+    quality: true,
   },
 ];
 
 export const ultraViolateTreatment = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
   },
   {
     id: 2,
-    name: 'ULTRA VIOLATE WATER TREATMENT PLANT',
-    img : pc1000ro,
+    name: "ULTRA VIOLATE WATER TREATMENT PLANT",
+    img: pc1000ro,
   },
 ];
 
 export const softBaseTreatment = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
   },
   {
     id: 2,
-    name: 'Softner Base Water Treatment Plant',
-    img : iro1000,
+    name: "Softner Base Water Treatment Plant",
+    img: iro1000,
     quality: true,
   },
-]; 
+];
 
 export const dmFiltration = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
   },
   {
     id: 2,
-    name: 'DM PLANT & FILTRATION PLANT',
-    img : '',
+    name: "DM PLANT & FILTRATION PLANT",
+    img: "",
     quality: true,
   },
-]; 
+];
 
 export const swimmingPoolFiltration = [
   {
     id: 1,
-    name: 'All Products',
-    img: ''
+    name: "All Products",
+    img: "",
   },
   {
     id: 2,
-    name: 'Swimming Pool Filteration Plant',
-    img : poolImg,
+    name: "Swimming Pool Filteration Plant",
+    img: poolImg,
   },
 ];
 
 export const plantSeaWater = [
   {
     id: 1,
-    name: 'All Products',
+    name: "All Products",
   },
   {
     id: 2,
-    name: 'Sea Water Plant',
+    name: "Sea Water Plant",
   },
 ];

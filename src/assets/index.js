@@ -58,15 +58,20 @@ import pc25 from './images/products/roBased/pc25.jpg';
 import iro1000 from './images/products/roBased/iro1000.jpg'
 import iro750 from './images/products/roBased/iro750.jpg';
 import iro100 from './images/products/roBased/iro100.jpg'
+
 import remoteMonitor from './images/products/fullyAuto/remoteMonitor.jpg';
 import mvpSelection from './images/products/fullyAuto/mvpSelection.jpg';
 import multiAuto from './images/products/fullyAuto/multiAuto.png';
 import autoFilter from './images/products/fullyAuto/autoFilter.png';
 import aptAuto from './images/products/fullyAuto/aptAuto.jpg';
+import handleAssembly from './images/products/fullyAuto/handleAssembly.jpg';
+
 import addedMineralImg from './images/products/addedMineral/addedMineral.png';
 import poolImg from './images/products/pool.png';
 import poolFiltration from './images/products/poolFiltration.png';
 import seaWaterPlantImg from './images/products/seaWater.jpg';
+import mineral from './images/products/mineral.png'
+
 import bottleWashing from './images/products/packageDrinking/autoBottleWashing.jpg';
 import batchCoding from './images/products/packageDrinking/batchCoding.jpg';
 import blowModeling from './images/products/packageDrinking/blowModeling.jpg';
@@ -89,7 +94,7 @@ export {
     addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness, roTreatmentImg,
     pc5000, pc3000, pc100150, pc2000, pc1000, pc1000ro, pc500semi, pc250, pc75, pc50, pc25, iro1000, 
     iro750, iro100, remoteMonitor, mvpSelection, multiAuto, autoFilter, aptAuto, addedMineralImg, poolImg,
-    poolFiltration, seaWaterPlantImg,
+    poolFiltration, seaWaterPlantImg, handleAssembly, mineral,
     bottleWashing, batchCoding, blowModeling, glassPacking, jarWashing, ozonation, pdwt, pouchPacking,
     roPlant, shrinkTunnel, ssStorage, transferPump, uv, withWebSealer,
 }; 

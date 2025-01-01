@@ -11,6 +11,7 @@ const Ufwt = () => {
         <ContentBody
           title={selectedIndex?.name}
           img={selectedIndex?.img}
+          quality={selectedIndex?.quality}
         />
       )}
     </GridBox>
