@@ -1,17 +1,18 @@
 import React from "react";
 import { addresses } from "../../db/dummyData";
 import Container from "../Container";
-import { addressBg } from "../../assets";
+import { addressBg, bg5 } from "../../assets";
+
 
 const Address = () => {
   return (
     <div
       className="h-auto bg-fixed bg-cover bg-center"
       style={{
-        backgroundImage: `url(${addressBg})`,
+        backgroundImage: `url(${bg5})`,
       }}
     >
-      <Container classname1={"h-auto py-7 bg-[#102f42]/60"}>
+      <Container classname1="py-7 bg-[#030f25]/80">
         <section className="w-full grid grid-cols-3 gap-7">
           {addresses?.map((a, i) => (
             <div key={i}>

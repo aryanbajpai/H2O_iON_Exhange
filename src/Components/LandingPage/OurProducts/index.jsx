@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Button } from '../../../Basics';
 import { Heading } from '../../../ReusableComponents';
 import { ourPrdt } from '../../../db/dummyData';
+import { bg1 } from '../../../assets';
 
 const OurProducts = () => {
   const [state, setState] = useState({
@@ -16,7 +17,13 @@ const OurProducts = () => {
   };
 
   return (
-    <Container classname1={'bg-gray-200 py-24'}>
+    <main
+      className="h-auto  bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${bg1})`,
+      }}
+    >
+      <Container classname1={'py-24'}>
       <Heading text="Our Products" span="__" />
       <div className="flex gap-8 flex-wrap mt-12">
         {ourPrdt.map((product, index) => (
@@ -50,6 +57,8 @@ const OurProducts = () => {
         ))}
       </div>
     </Container>
+    </main>
+    
   );
 };
 

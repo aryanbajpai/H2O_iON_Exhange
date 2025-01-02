@@ -3,7 +3,7 @@ import Container from "../Container";
 import InputFields from "../InputFields";
 import Button from "../Button";
 import { quickLinks } from "../../db/dummyData";
-import {earth, saveEnvironment} from '../../assets';
+import {bg6, saveEnvironment} from '../../assets';
 import Address from "../Address";
 
 const Footer = () => {
@@ -11,11 +11,11 @@ const Footer = () => {
     <footer
       className="h-auto bg-fixed bg-cover bg-center"
       style={{
-        backgroundImage: `url(${earth})`, 
+        backgroundImage: `url(${bg6})`, 
       }}
     >
       <Address />
-      <Container classname1={"h-auto py-10 bg-[#102f42]/80"}>
+      <Container classname1={"h-auto py-10"}>
         {/* About us and Links */}
         <section className="w-full grid grid-cols-[30%_70%] gap-5">
           <div className="w-full pr-3">

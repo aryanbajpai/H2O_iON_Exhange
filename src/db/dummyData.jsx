@@ -3,7 +3,9 @@ import {
   addedMineralImg,
   anti,
   aptAuto,
+  assembling,
   autoFilter,
+  available,
   azud,
   batchCoding,
   blowModeling,
@@ -951,5 +953,22 @@ export const allProductsData = [
     name: "Accessories",
     link: "/accessories",
     img: accessories,
+  },
+];
+
+export const callUsNow = [
+  {
+    img: available,
+    title1: "READILY",
+    title2: "AVAILABLE",
+    para: "We're 24X7 readily available stock for immediate need",
+    link: "Call us now",
+  },
+  {
+    img: assembling,
+    title1: "ENGINEERING ",
+    title2: "ASSEMBLING",
+    para: "When it comes to water... Come to us!",
+    link: "Call Us",
   },
 ];

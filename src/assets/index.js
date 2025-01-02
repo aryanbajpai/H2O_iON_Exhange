@@ -102,6 +102,22 @@ import industrial from './images/products/allProductsImg/industrial.png';
 import vessel from './images/products/allProductsImg/vessel.png';
 import accessories from './images/products/allProductsImg/accessories.png';
 
+import checkIcon from './images/svgs/checkIcon.svg';
+
+import slider1 from './images/sliders/slider1.jpg';
+import slider2 from './images/sliders/slider2.jpg';
+import slider3 from './images/sliders/slider3.jpg';
+import slider4 from './images/sliders/slider4.jpg';
+import slider5 from './images/sliders/slider5.jpg';
+import slider6 from './images/sliders/slider6.jpg';
+
+import bg1 from './images/background/bg1.jpg';
+import bg2 from './images/background/bg2.jpg';
+import bg3 from './images/background/bg3.jpg';
+import bg4 from './images/background/bg4.jpg';
+import bg5 from './images/background/bg5.jpg';
+import bg6 from './images/background/bg6.jpg';
+
 export { 
     goGreen, saveEnvironment, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
     drinkingWater, industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
@@ -113,5 +129,6 @@ export {
     bottleWashing, batchCoding, blowModeling, glassPacking, jarWashing, ozonation, pdwt, pouchPacking,
     roPlant, shrinkTunnel, ssStorage, transferPump, uv, withWebSealer,
     effluent, chiller, waterCooler, oxygen,anti, meter, micron, filterHousing, membrane, industrial,
-    vessel, accessories,
+    vessel, accessories, checkIcon,
+    slider1, slider2, slider3, slider4, slider5, slider6, bg1, bg2, bg3, bg4, bg5, bg6
 }; 

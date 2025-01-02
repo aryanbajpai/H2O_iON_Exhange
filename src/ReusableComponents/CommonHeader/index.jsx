@@ -5,7 +5,7 @@ import ComponentBanner from '../ComponentBanner'
 
 const CommonHeader = ({head, tail, bgImg, headBanner}) => {
   return (
-    <main>
+    <main className='relative z-10'>
             <div className='relative w-full'>
                 <Head />
                 <div className='absolute w-full -bottom-[54px]'>

@@ -1,20 +1,18 @@
 import React from "react";
 import { Container } from "../../../Basics";
 import { Heading, ItalicSubHead } from "../../../ReusableComponents";
-import { playBtn, videoShort, waterBg } from "../../../assets";
+import { playBtn, videoShort, bg2 } from "../../../assets";
 
 const ModernTech = () => {
   return (
-    <main className="border-3 border-red-400"
+    <main
+      className="h-auto bg-cover bg-center"
       style={{
-        backgroundImage: `url(${waterBg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center", 
-        backgroundRepeat: "no-repeat",
+        backgroundImage: `url(${bg2})`,
       }}
     >
       <Container
-        classname1="py-24 bg-gray-800"
+        classname1="py-24 bg-[#030f25]/80"
         classname2="grid grid-cols-[53%_42%] gap-16"
       >
         <figure className="cursor-pointer relative">
@@ -22,7 +20,7 @@ const ModernTech = () => {
           <img src={playBtn} className="absolute top-[40%] left-[44%] w-20 h-20" />
           <div className="w-full h-full absolute top-0 bg-black opacity-[45%] hover:opacity-[30%] transition-all duration-500"></div>
         </figure>
-        <div className="w-full">
+        <div className="w-full ">
           <Heading text="Modern Technology __" dark={true} />
           <ItalicSubHead
             dark={true}

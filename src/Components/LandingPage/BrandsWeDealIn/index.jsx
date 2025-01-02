@@ -5,6 +5,7 @@ import { brands } from '../../../db/dummyData';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import { bg1 } from '../../../assets';
 
 const BrandsWeDealIn = () => {
     const sliderSettings = {
@@ -42,7 +43,13 @@ const BrandsWeDealIn = () => {
     };
   
     return (
-      <Container classname1="py-16 bg-gray-200">
+      <main
+      className="h-auto bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${bg1})`,
+      }}
+    >
+      <Container classname1="py-16">
         <Heading text="Brands we deal in" span="__" />
         <div className="my-7">
           <Slider {...sliderSettings}>
@@ -54,6 +61,8 @@ const BrandsWeDealIn = () => {
           </Slider>
         </div>
       </Container>
+    </main>
+      
     );
   };
   
