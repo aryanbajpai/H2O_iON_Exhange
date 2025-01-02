@@ -17,20 +17,31 @@ export default {
             opacity: "1",
           }
         },
-        heightDecrease: {
+        slideToTop: {
           "0%": {
-            maxHeight: "2000px", 
-            opacity: "1",
-          },
-          "100%": {
-            maxHeight: "0px",
+            transform: "translateY(30%)",
             opacity: "0",
           },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: "1",
+          }
+        },
+        slideToBottom: {
+          "0%": {
+            transform: "translateY(-30%)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: "1",
+          }
         },
       },
       animation: {
-        slideToLeft: "slideToLeft 0.3s ease-in-out forwards",
-        heightDecrease: "heightDecrease 0.3s ease-in-out forwards",
+        slideToLeft: "slideToLeft 0.8s ease-in-out forwards",
+        slideToTop: "slideToTop 0.5s ease-in forwards",
+        slideToBottom: "slideToBottom 0.5s ease-in forwards",
       },
     },
     screens: {

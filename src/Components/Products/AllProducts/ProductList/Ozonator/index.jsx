@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from '../../../../../Basics';
-import PurifiedWater from '../../../AddedMinerals/PurifiedWater';
 import { CommonHeader, Navigation } from '../../../../../ReusableComponents';
+import Greenz from '../../ProductList/Ozonator/Greenz';
 
 
 const Ozonator = () => {
@@ -17,7 +17,7 @@ const Ozonator = () => {
 
       <Container classname1={"my-24"}>
         {/* Left */}
-        <PurifiedWater />
+        <Greenz />
       </Container>
     </main>
   )

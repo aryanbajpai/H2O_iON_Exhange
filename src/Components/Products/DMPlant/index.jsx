@@ -12,7 +12,7 @@ const DMPlant = () => {
         // bgImg={aboutUsBg}
         headBanner={true}
       />
-      <Navigation child="RO Based Water Treatment Plant" />
+      <Navigation child="DM PLANT & FILTRATION PLANT" />
 
       <Container classname1={"my-24"}>
         <FiltrationPlant />

@@ -12,7 +12,7 @@ const SeaWaterPlant = () => {
         // bgImg={aboutUsBg}
         headBanner={true}
       />
-      <Navigation child="RO Based Water Treatment Plant" />
+      <Navigation child="Sea Water Plant" />
 
       <Container classname1={"my-24"}>
         <Info />

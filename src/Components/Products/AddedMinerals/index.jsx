@@ -12,7 +12,7 @@ const AddedMinerals = () => {
         // bgImg={aboutUsBg}
         headBanner={true}
       />
-      <Navigation child="RO Based Water Treatment Plant" />
+      <Navigation child="ADDED MINERAL" />
 
       <Container classname1={"my-24"}>
         {/* Left */}

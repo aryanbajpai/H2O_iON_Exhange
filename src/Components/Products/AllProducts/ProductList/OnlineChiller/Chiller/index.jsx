@@ -3,7 +3,7 @@ import { GridBox } from "../../../../../../ReusableComponents/Products";
 import { Paragraph } from "../../../../../../Basics";
 import { Heading } from "../../../../../../ReusableComponents";
 
-const Sewage = () => {
+const Chiller = () => {
     const showData = [
         {
             id: 1,
@@ -56,4 +56,4 @@ const Sewage = () => {
     );
 };
 
-export default Sewage;
+export default Chiller;

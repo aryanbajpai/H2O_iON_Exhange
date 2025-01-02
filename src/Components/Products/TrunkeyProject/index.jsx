@@ -12,7 +12,7 @@ const TrunkeyProject = () => {
         // bgImg={aboutUsBg}
         headBanner={true}
       />
-      <Navigation child="RO Based Water Treatment Plant" />
+      <Navigation child="Packaged Drinking Water Turnkey Project" />
 
       <Container classname1={"my-24"}>
         <PackageDrinking />

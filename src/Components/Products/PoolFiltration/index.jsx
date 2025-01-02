@@ -12,7 +12,7 @@ const PoolFiltration = () => {
         // bgImg={aboutUsBg}
         headBanner={true}
       />
-      <Navigation child="RO Based Water Treatment Plant" />
+      <Navigation child="Swimming Pool Filtration Plant" />
 
       <Container classname1={"my-24"}>
         <SwimmingPool />

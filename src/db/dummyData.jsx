@@ -65,6 +65,12 @@ import {
   sds,
   seaWaterPlantImg,
   shrinkTunnel,
+  slider1,
+  slider2,
+  slider3,
+  slider4,
+  slider5,
+  slider6,
   softBase,
   spfs,
   ssStorage,
@@ -970,5 +976,74 @@ export const callUsNow = [
     title2: "ASSEMBLING",
     para: "When it comes to water... Come to us!",
     link: "Call Us",
+  },
+];
+
+export const bannerSliderData = [
+  {
+    id: 1,
+    img: slider1,
+    text: 'PACKAGED DRINKING WATER TURNKEY PROJECT',
+    title: 'H2O ION EXCHANGE',
+    checks: [
+      {value: 'Our Vision'},
+      {value: 'Modern Technologies'},
+      {value: 'Creative Solutions'},
+    ]
+  },
+  {
+    id: 2,
+    img: slider2,
+    text: 'FULLY AUTOMATIC WATER TREATMENT PLANT',
+    title: 'WATER = LIFE',
+    checks: [
+      {value: 'Ionexchange Resin'},
+      {value: 'Membrane'},
+      {value: 'Industrial Pumps'},
+    ]
+  },
+  {
+    id: 3,
+    img: slider3,
+    text: 'ULTRA FILTRATION WATER TREATMENT PLANT',
+    title: 'MAKE WATER PURE & PRECIOUS',
+    checks: [
+      {value: 'Swimming Filtration System'},
+      {value: 'Hydro Pneamatix Pressure'},
+      {value: 'Booster System'},
+    ]
+  },
+  {
+    id: 4,
+    img: slider4,
+    text: 'SOFTNER BASE WATER TREATMENT PLANT',
+    title: 'CONSERVATION = FUTURE',
+    checks: [
+      {value: 'PureMagic Plus'},
+      {value: 'Balanced Minerals'},
+      {value: 'Mineral Composition'},
+    ]
+  },
+  {
+    id: 5,
+    img: slider5,
+    text: 'SEA WATER PLANT',
+    title: 'MAKE WATER PURE & PRECIOUS',
+    checks: [
+      {value: 'Specialist in Pumps'},
+      {value: 'Stainless Steel Pumps'},
+      {value: 'Vast Variety of Pumps'},
+    ]
+  },
+  {
+    id: 6,
+    img: slider6,
+    text: 'R O',
+    title: 'MAKE WATER PURE & PRECIOUS',
+    checks: [
+      {value: 'Greenz - Power of Ozone'},
+      {value: 'Applications'},
+      {value: 'Benefits'},
+    ]
   },
 ];

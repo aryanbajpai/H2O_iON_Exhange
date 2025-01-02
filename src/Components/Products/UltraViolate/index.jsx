@@ -12,7 +12,7 @@ const UltraViolate = () => {
         // bgImg={aboutUsBg}
         headBanner={true}
       />
-      <Navigation child="RO Based Water Treatment Plant" />
+      <Navigation child="ULTRA VIOLATE WATER TREATMENT PLANT" />
 
       <Container classname1={"my-24"}>
         <Uvwt />
