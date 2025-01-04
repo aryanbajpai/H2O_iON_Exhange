@@ -1,6 +1,4 @@
-import goGreen from './images/goGreen.png';
 import saveEnvironment from './images/saveEnvironment.png'
-import earth from './images/earth.jpg';
 import logo from './images/logo.png';
 import email from './images/mail.png';
 import call from './images/call.png';
@@ -14,7 +12,6 @@ import drinkingWater from './images/drinkingWater.png';
 import turnkey from './images/turnkey.png';
 import industrialPumps from './images/industrialPumps.png';
 import videoShort from './images/videoShot.jpg';
-import waterBg from './images/waterBg.jpg';
 import wtp from './images/waterTreatment.jpg';
 import wtc from './images/wtComponent.jpg';
 import spfs from './images/spfs.jpg';
@@ -37,6 +34,7 @@ import ionExchange from './images/ionExchange.jpg';
 import dow from './images/dow.jpg';
 import hydranautics from './images/hydranautics.jpg';
 import addressBg from './images/addressBg.jpg';
+import emptyFrame from './images/emptyFrame.png';
 
 import filtrationBusiness from './images/servicesImages/filtrationBusiness.jpg';
 import clientsRelation from './images/servicesImages/clientsRelation.jpg';
@@ -119,8 +117,8 @@ import bg5 from './images/background/bg5.jpg';
 import bg6 from './images/background/bg6.jpg';
 
 export { 
-    goGreen, saveEnvironment, earth, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
-    drinkingWater, industrialPumps, videoShort, waterBg, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
+    saveEnvironment, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
+    drinkingWater, industrialPumps, videoShort, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
     latestPrjct2, playBtn,  aboutUsBg, aboutUs, initiative, azud, csm, cnp, lanxess, ionExchange, dow, hydranautics, 
     addressBg, filtrationBusiness, clientsRelation, turnkeyProject, pumpsBusiness, roTreatmentImg,
     pc5000, pc3000, pc100150, pc2000, pc1000, pc1000ro, pc500semi, pc250, pc75, pc50, pc25, iro1000, 
@@ -129,6 +127,6 @@ export {
     bottleWashing, batchCoding, blowModeling, glassPacking, jarWashing, ozonation, pdwt, pouchPacking,
     roPlant, shrinkTunnel, ssStorage, transferPump, uv, withWebSealer,
     effluent, chiller, waterCooler, oxygen,anti, meter, micron, filterHousing, membrane, industrial,
-    vessel, accessories, checkIcon,
+    vessel, accessories, checkIcon, emptyFrame,
     slider1, slider2, slider3, slider4, slider5, slider6, bg1, bg2, bg3, bg4, bg5, bg6
 }; 
