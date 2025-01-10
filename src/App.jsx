@@ -19,7 +19,6 @@ import Membrane from './Components/Products/AllProducts/ProductList/Membrane';
 import IndustrialPumps from './Components/Products/AllProducts/ProductList/IndustrialPumps';
 import Vessel from './Components/Products/AllProducts/ProductList/Vessel';
 import Accessories from './Components/Products/AllProducts/ProductList/Accessories';
-import TrialBanner from './Components/TrialBanner';
 
 function App() {
 
@@ -29,7 +28,6 @@ function App() {
           <MainNavBar />
           <Routes>
              <Route path='/' exact element={<LandingPage/>}/>
-             <Route path='/trial' exact element={<TrialBanner/>}/>
              <Route path='/about-us' Component={AboutUs}/>
              <Route path='/services' Component={ServicesComponent}/>
              <Route path='/contact-us' Component={ContactUs}/>

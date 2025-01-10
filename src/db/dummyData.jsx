@@ -7,6 +7,9 @@ import {
   autoFilter,
   available,
   azud,
+  b1,
+  b2,
+  b3,
   batchCoding,
   blowModeling,
   bottleWashing,
@@ -982,7 +985,7 @@ export const callUsNow = [
 export const bannerSliderData = [
   {
     id: 1,
-    img: slider1,
+    img: b1,
     text: 'PACKAGED DRINKING WATER TURNKEY PROJECT',
     title: 'H2O ION EXCHANGE',
     checks: [
@@ -993,7 +996,7 @@ export const bannerSliderData = [
   },
   {
     id: 2,
-    img: slider2,
+    img: b2,
     text: 'FULLY AUTOMATIC WATER TREATMENT PLANT',
     title: 'WATER = LIFE',
     checks: [
@@ -1004,7 +1007,7 @@ export const bannerSliderData = [
   },
   {
     id: 3,
-    img: slider3,
+    img: b3,
     text: 'ULTRA FILTRATION WATER TREATMENT PLANT',
     title: 'MAKE WATER PURE & PRECIOUS',
     checks: [
@@ -1015,7 +1018,7 @@ export const bannerSliderData = [
   },
   {
     id: 4,
-    img: slider4,
+    img: b1,
     text: 'SOFTNER BASE WATER TREATMENT PLANT',
     title: 'CONSERVATION = FUTURE',
     checks: [
@@ -1026,7 +1029,7 @@ export const bannerSliderData = [
   },
   {
     id: 5,
-    img: slider5,
+    img: b2,
     text: 'SEA WATER PLANT',
     title: 'MAKE WATER PURE & PRECIOUS',
     checks: [
@@ -1037,7 +1040,7 @@ export const bannerSliderData = [
   },
   {
     id: 6,
-    img: slider6,
+    img: b3,
     text: 'R O',
     title: 'MAKE WATER PURE & PRECIOUS',
     checks: [

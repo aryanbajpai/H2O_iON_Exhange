@@ -12,8 +12,7 @@ const Address = () => {
         backgroundImage: `url(${bg5})`,
       }}
     >
-      <Container classname1="py-7 bg-[#030f25]/80">
-        <section className="w-full grid grid-cols-3 gap-7">
+      <Container classname1={"py-7 bg-[#030f25]/80"} classname2={"grid grid-cols-2 lg:grid-cols-3 gap-7"}>
           {addresses?.map((a, i) => (
             <div key={i}>
               <div className="h-auto grid grid-cols-[20%_80%]  border border-[#d1d1d1]">
@@ -28,7 +27,6 @@ const Address = () => {
               </div>
             </div>
           ))}
-        </section>
       </Container>
     </div>
   );

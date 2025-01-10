@@ -116,6 +116,18 @@ import bg4 from './images/background/bg4.jpg';
 import bg5 from './images/background/bg5.jpg';
 import bg6 from './images/background/bg6.jpg';
 
+import b1 from './images/newBanner/b1.png';
+import b2 from './images/newBanner/b2.png';
+import b3 from './images/newBanner/b3.png';
+import shapeRed from './images/newBanner/shapeFillRed.webp';
+import shapeRGB from './images/newBanner/shapeFillRGB.webp';
+import threeLines from './images/newBanner/threeLines.svg'
+import heroLines from './images/newBanner/heroLines.svg'
+import list1 from './images/newBanner/list1.svg';
+import list2 from './images/newBanner/list2.svg';
+import list3 from './images/newBanner/list3.svg';
+import rgbBg from './images/newBanner/rgbBg.webp';
+
 export { 
     saveEnvironment, logo, email, call, available, assembling, seaWaterPlant, strength, mission, clientRel, turnkey, 
     drinkingWater, industrialPumps, videoShort, wtp, wtc, spfs, hpp, pbs, sds, award, latestPrjct1, 
@@ -125,8 +137,8 @@ export {
     iro750, iro100, remoteMonitor, mvpSelection, multiAuto, autoFilter, aptAuto, addedMineralImg, poolImg,
     poolFiltration, seaWaterPlantImg, handleAssembly, mineral, softBase, dmPlant,
     bottleWashing, batchCoding, blowModeling, glassPacking, jarWashing, ozonation, pdwt, pouchPacking,
-    roPlant, shrinkTunnel, ssStorage, transferPump, uv, withWebSealer,
+    roPlant, shrinkTunnel, ssStorage, transferPump, uv, withWebSealer, rgbBg,
     effluent, chiller, waterCooler, oxygen,anti, meter, micron, filterHousing, membrane, industrial,
-    vessel, accessories, checkIcon, emptyFrame,
-    slider1, slider2, slider3, slider4, slider5, slider6, bg1, bg2, bg3, bg4, bg5, bg6
+    vessel, accessories, checkIcon, emptyFrame, b1, b2, b3, shapeRGB, shapeRed, threeLines, heroLines,
+    slider1, slider2, slider3, slider4, slider5, slider6, bg1, bg2, bg3, bg4, bg5, bg6, list1, list2, list3,
 }; 

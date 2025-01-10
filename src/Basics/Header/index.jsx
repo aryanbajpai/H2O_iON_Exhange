@@ -12,7 +12,7 @@ const Header = ({ backGround }) => {
       <div className="bg-[#227cb8] p-1 group">
         <nav className="border border-dashed border-[#afafaf]">
           <div className="text-white text-[16px] font-bold flex justify-between">
-            <ul className="flex py-2">
+            <ul className="hidden lg:flex py-2">
               {menuItems.map((item, index) => (
                 <li
                   key={index}

@@ -8,12 +8,14 @@ import OurProducts from "./OurProducts";
 import RequestService from "./RequestService";
 import OurLatestProject from "./OurLatestProject";
 import BrandsWeDealIn from './BrandsWeDealIn';
+import TrialBanner from "../TrialBanner";
 
 const LandingPage = () => {
   return (
     <main>
       <CommonHeader />
-      <Banner />
+      {/* <Banner /> */}
+      <TrialBanner/>
       <AboutH2O />
       <ServiceWeOffer />
       <ModernTech />

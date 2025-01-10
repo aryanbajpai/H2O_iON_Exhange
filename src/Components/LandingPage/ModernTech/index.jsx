@@ -13,14 +13,14 @@ const ModernTech = () => {
     >
       <Container
         classname1="py-24 bg-[#030f25]/80"
-        classname2="grid grid-cols-[53%_42%] gap-16"
+        classname2="xl:grid grid-cols-[53%_42%] gap-16"
       >
-        <figure className="cursor-pointer relative">
-          <img src={videoShort} alt="Video" className="w-full" />
-          <img src={playBtn} className="absolute top-[40%] left-[44%] w-20 h-20" />
-          <div className="w-full h-full absolute top-0 bg-black opacity-[45%] hover:opacity-[30%] transition-all duration-500"></div>
+        <figure className="cursor-pointer flex items-center justify-center relative">
+          <img src={videoShort} alt="Video" className="w-[50%] xl:w-full" />
+          <img src={playBtn} className="absolute top-[35%] left-[46%] xl:top-[40%] xl:left-[44%] w-20 h-20" />
+          <div className="w-[50%] xl:w-full h-full absolute top-0 bg-black opacity-[45%] hover:opacity-[30%] transition-all duration-500"></div>
         </figure>
-        <div className="w-full ">
+        <div className="w-full mt-5 xl:mt-0">
           <Heading text="Modern Technology __" dark={true} />
           <ItalicSubHead
             dark={true}

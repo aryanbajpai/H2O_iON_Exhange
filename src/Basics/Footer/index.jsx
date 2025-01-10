@@ -17,7 +17,7 @@ const Footer = () => {
       <Address />
       <Container classname1={"h-auto py-10"}>
         {/* About us and Links */}
-        <section className="w-full grid grid-cols-[30%_70%] gap-5">
+        <section className="w-full grid grid-cols-2 xl:grid-cols-[30%_27%_27%_16%] gap-5">
           <div className="w-full pr-3">
             <p className="text-white font-bold tracking-wide py-3">ABOUT US</p>
             <div className="border-t-2 border-[#5cd0f3] w-[40px]"></div>
@@ -28,7 +28,6 @@ const Footer = () => {
             </p>
           </div>
 
-          <section className="grid grid-cols-3">
             {quickLinks?.map((data, index) => (
               <div key={index} className="w-full px-3">
                 <p className="text-white font-bold tracking-wide py-3">{data?.title}</p>
@@ -42,23 +41,22 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-            <figure className="boder border-white">
+            <figure className="w-[250px] h-[300px] mx-auto">
               <img src={saveEnvironment} alt="Go Green Logo" className="w-full h-full" />
             </figure>
-          </section>
         </section>
 
         {/* Subscribe */}
-        <div className="border border-dashed border-gray-500 bg-[#0c2534]/90 px-7 py-5 grid grid-cols-[38%_38%_19%] gap-7">
+        <div className="border border-dashed border-gray-500 bg-[#0c2534]/90 px-7 py-5 lg:grid grid-cols-[38%_38%_19%] gap-7">
           <p className="text-[#53c2e3] font-semibold">
             Subscribe now and receive a weekly newsletter with new tips and exciting offers or discounts.
           </p>
           <InputFields
             type="text"
             placeholder="Enter your email address"
-            style={"bg-[#091e2b] px-3 py-2 border border-gray-500 text-gray-400"}
+            style={"bg-[#091e2b] px-3 py-2 border border-gray-500 text-gray-400 mt-3 lg:my-2 xl:my-0"}
           />
-          <Button type="danger" btnText="SUBSCRIBE" addClass={"text-[17px]"} />
+          <Button type="danger" btnText="SUBSCRIBE" addClass={"text-[17px] mt-3 lg:my-3 xl:my-0"} />
         </div>
 
         {/* Copyright */}

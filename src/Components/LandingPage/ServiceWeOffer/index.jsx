@@ -69,7 +69,7 @@ const ServiceWeOffer = () => {
                 <div className="font-bold text-[#252525] text-center my-3">
                   {s?.title}
                 </div>
-                <p className="text-[#949494] text-[16px] text-center">
+                <p className="text-[#949494] text-[16px] text-center mx-5">
                   {s?.para}
                 </p>
               </div>

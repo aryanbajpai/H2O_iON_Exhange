@@ -8,7 +8,7 @@ const OurLatestProject = () => {
     <Container classname1={"py-24"}>
       <Heading text="Our Latest Projets" span="__" />
 
-      <section className="w-full grid grid-cols-3 gap-7 mt-10">
+      <section className="w-full grid grid-cols-2 lg:grid-cols-3 gap-7 mt-10">
         {ourLatest?.map((l, i) => (
           <div key={i} className="border-b border-dashed py-5 w-full">
             <figure className="w-full h-[270px] overflow-hidden">

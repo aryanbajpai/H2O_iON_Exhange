@@ -23,9 +23,9 @@ const RequestService = () => {
   return (
     <Container
       classname1={"py-20"}
-      classname2={"grid grid-cols-[30%_70%] gap-20 items-start"}
+      classname2={"xl:grid grid-cols-[30%_70%] gap-20 items-start"}
     >
-      <section className="text-white p-8 bg-[#35a4c0]">
+      <section className="text-white p-8 bg-[#35a4c0] w-[50%]">
         <p className="font-bold text-3xl">REQUEST SERVICES</p>
         <p className="italic my-3 text-[17px]">
           Enter your contact details here to help us serve you better & faster.
@@ -53,7 +53,7 @@ const RequestService = () => {
         />
       </section>
 
-      <section>
+      <section className="mt-10 xl:mt-0">
         <Heading text="About Us" span="__" />
         <div>
           <ItalicSubHead subHead="We, H2o Ion Exchange are pleased to introduce ourselves as one of the leading water management company:" />
