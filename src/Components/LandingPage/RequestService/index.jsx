@@ -25,7 +25,7 @@ const RequestService = () => {
       classname1={"py-20"}
       classname2={"xl:grid grid-cols-[30%_70%] gap-20 items-start"}
     >
-      <section className="text-white p-8 bg-[#35a4c0] w-[50%]">
+      <section className="text-white p-8 bg-[#35a4c0] w-[50%] xl:w-full">
         <p className="font-bold text-3xl">REQUEST SERVICES</p>
         <p className="italic my-3 text-[17px]">
           Enter your contact details here to help us serve you better & faster.
